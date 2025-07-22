@@ -335,7 +335,129 @@ const websiteData = {
               "linkedin": "https://www.linkedin.com/in/i-am-startup-community-india/",
               "instagram": "#"
             }
+          },
+          {
+            "name": "GDSC On Campus - MITS Gwalior",
+            "description": "GDSC On Campus at MITS Gwalior is a student-led community focused on fostering innovation and learning through Google technologies, workshops, and collaborative projects.",
+            "logoUrl": "Community-Partner-Logo/mits.png",
+            "websiteUrl": "https://www.linkedin.com/company/gdg-on-campus-mits-gwalior/",
+            "socialMedia": {
+              "twitter": "#",
+              "linkedin": "https://www.linkedin.com/company/gdg-on-campus-mits-gwalior/",
+              "instagram": "#"
+            }
+          },
+          {
+            "name": "GDSC On Campus - GGITS",
+            "description": "GDSC On Campus at GGITS empowers students with skills in Google developer tools, hosting events, hackathons, and sessions to build tech solutions for real-world problems.",
+            "logoUrl": "Community-Partner-Logo/gyan-ganga.jpg",
+            "websiteUrl": "https://www.linkedin.com/company/google-developer-groups-ggits/",
+            "socialMedia": {
+              "twitter": "#",
+              "linkedin": "https://www.linkedin.com/company/google-developer-groups-ggits/",
+              "instagram": "#"
+            }
+          },
+          {
+            "name": "GDSC On Campus - LNCTS",
+            "description": "GDSC On Campus at LNCTS connects students passionate about technology, offering resources, mentorship, and events centered around Google technologies and developer best practices.",
+            "logoUrl": "Community-Partner-Logo/lncts.jpg",
+            "websiteUrl": "https://www.linkedin.com/company/google-developer-students-club-lncts/",
+            "socialMedia": {
+              "twitter": "#",
+              "linkedin": "https://www.linkedin.com/company/google-developer-students-club-lncts/",
+              "instagram": "#"
+            }
+          },
+          {
+            "name": "GDSC On Campus - LNCTE",
+            "description": "GDSC On Campus at LNCTE is dedicated to bridging the gap between academia and industry through Google developer ecosystems, workshops, and community-driven initiatives.",
+            "logoUrl": "Community-Partner-Logo/lncte.jpg",
+            "websiteUrl": "https://www.linkedin.com/company/google-developer-student-club-lncte/",
+            "socialMedia": {
+              "twitter": "#",
+              "linkedin": "https://www.linkedin.com/company/google-developer-student-club-lncte/",
+              "instagram": "#"
+            }
+          },
+          {
+            "name": "GDSC On Campus - SOIT RGPV",
+            "description": "GDSC On Campus at SOIT RGPV inspires students to explore Android, cloud computing, and other Google technologies through interactive sessions and collaborative projects.",
+            "logoUrl": "Community-Partner-Logo/soit.jpg",
+            "websiteUrl": "https://www.linkedin.com/company/google-developer-student-clubs-soit-rgpv/",
+            "socialMedia": {
+              "twitter": "#",
+              "linkedin": "https://www.linkedin.com/company/google-developer-student-clubs-soit-rgpv/",
+              "instagram": "#"
+            }
+          },
+          {
+            "name": "GDSC On Campus - SIRT",
+            "description": "GDSC On Campus at SIRT fosters a vibrant community of developers, organizing events and hackathons to promote innovation using Google developer tools and resources.",
+            "logoUrl": "Community-Partner-Logo/sirt.jpg",
+            "websiteUrl": "https://www.linkedin.com/company/google-developer-group-sirt/",
+            "socialMedia": {
+              "twitter": "#",
+              "linkedin": "https://www.linkedin.com/company/google-developer-group-sirt/",
+              "instagram": "#"
+            }
+          },
+          {
+            "name": "GDSC On Campus - SISTec",
+            "description": "GDSC On Campus at SISTec brings together aspiring developers to learn, build, and grow with Google technologies through workshops, talks, and community events.",
+            "logoUrl": "Community-Partner-Logo/sistec.jpg",
+            "websiteUrl": "https://www.linkedin.com/company/gdgsistec/",
+            "socialMedia": {
+              "twitter": "#",
+              "linkedin": "https://www.linkedin.com/company/gdgsistec/",
+              "instagram": "#"
+            }
+          },
+          {
+            "name": "GDSC On Campus - VIT Bhopal",
+            "description": "GDSC On Campus at VIT Bhopal supports students in developing tech skills with Google tools, hosting sessions on AI, web development, and more for career advancement.",
+            "logoUrl": "Community-Partner-Logo/vit-bhopal.png",
+            "websiteUrl": "https://www.linkedin.com/company/gdgcvitbhopal/",
+            "socialMedia": {
+              "twitter": "#",
+              "linkedin": "https://www.linkedin.com/company/gdgcvitbhopal/",
+              "instagram": "#"
+            }
+          },
+          {
+            "name": "GDSC On Campus - OIST",
+            "description": "GDSC On Campus at OIST encourages innovation and technical growth among students through Google developer programs, events, and collaborative learning opportunities.",
+            "logoUrl": "Community-Partner-Logo/oist.jpg",
+            "websiteUrl": "https://www.linkedin.com/company/gdgcoist/",
+            "socialMedia": {
+              "twitter": "#",
+              "linkedin": "#",
+              "instagram": "#"
+            }
+          },
+          {
+            "name": "AIESEC Bhopal",
+            "description": "AIESEC Bhopal is part of a global youth-led organization that develops leadership potential through international internships, volunteer projects, and cross-cultural experiences.",
+            "logoUrl": "https://media.licdn.com/dms/image/v2/C4D0BAQGZ32_VMDIc0w/company-logo_200_200/company-logo_200_200/0/1630503270621/aiesecindia_logo?e=1756339200&v=beta&t=ozHVtqjcSzrfiRzlSIMsmiYKC2D77Iyu_AlmSSizYTQ",
+            "websiteUrl": "https://www.linkedin.com/company/aiesecindia/",
+            "socialMedia": {
+              "twitter": "#",
+              "linkedin": "https://www.linkedin.com/company/aiesecindia/",
+              "instagram": "#"
+            }
+          },
+          {
+            "name": "Techhelp4u",
+            "description": "Techhelp4u provides technical support, resources, and community-driven assistance to help individuals and businesses navigate technology challenges and solutions.",
+            "logoUrl": "https://media.licdn.com/dms/image/v2/D4E0BAQFuZ3VzSOkycg/company-logo_200_200/B4EZgd6ct0HgAQ-/0/1752848518951/techhelp4u_logo?e=1756339200&v=beta&t=gNnjAlkH_hqAgkMyWp3uV2pReNhvP5e8PRCYKAUcJeY",
+            "websiteUrl": "https://www.linkedin.com/company/techhelp4u/",
+            "socialMedia": {
+              "twitter": "#",
+              "linkedin": "https://www.linkedin.com/company/techhelp4u/",
+              "instagram": "#"
+            }
           }
+
         ]
       }
     ]
