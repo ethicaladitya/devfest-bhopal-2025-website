@@ -178,28 +178,6 @@ const websiteData = {
       "link": { "text": "Learn more", "url": "#" }
     }
   },
-  "communityPartners": [
-    {
-      "name": "WordPress Bhopal",
-      "logoUrl": "https://bhopal.wordcamp.org/2025/files/2025/05/Group-16.png",
-      "website": "https://wpbhopal.org/"
-    },
-    {
-      "name": "ML Bhopal",
-      "logoUrl": "https://json.commudle.com/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBN3VvQWc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--4ed2fc68ffea9fddb06fbb4c636b9663346c820b/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9MWm05eWJXRjBTU0lJY0c1bkJqb0dSVlE2RkhKbGMybDZaVjkwYjE5c2FXMXBkRnNIYVFKQUFXa0NRQUU2QzJ4dllXUmxjbnNHT2dsd1lXZGxNQT09IiwiZXhwIjpudWxsLCJwdXIiOiJ2YXJpYXRpb24ifX0=--e1b8c3103b542b9d7ba47b2862e0d51860fbef22/ML_Bhopal_Logo.png",
-      "website": "https://www.commudle.com/communities/ml-bhopal"
-    },
-    {
-      "name": "Bhopal DAO",
-      "logoUrl": "https://www.bhopaldao.xyz/images/logo.png",
-      "website": "https://www.bhopaldao.xyz/"
-    },
-    {
-      "name": "I am Startup",
-      "logoUrl": "https://media.licdn.com/dms/image/v2/D4D03AQFg8LELuH7syg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1686288397402?e=1758153600&v=beta&t=OmKVw-7v6gUP1mUqHflNXZFvCGkiBFUz3oa8fiZFb94",
-      "website": "https://www.linkedin.com/in/i-am-startup-community-india/"
-    }
-  ],
   "footer": {
     "quickLinks": [
       { "text": "About", "url": "#about" },
