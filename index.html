@@ -194,6 +194,94 @@
             </div>
         </section>
 
+
+        <!-- Title Sponsor Section -->
+        <section id="title-sponsor" class="py-20 border-t border-b border-yellow-100 relative overflow-hidden" style="background: linear-gradient(120deg, #fff 60%, #fef6e0 90%, #e3f0ff 100%);">
+          <!-- Animated Gradient Overlay -->
+          <div class="absolute inset-0 z-0 pointer-events-none">
+            <div class="w-full h-full animate-gradient-move" style="background: linear-gradient(120deg, rgba(251,188,4,0.12) 0%, rgba(66,133,244,0.10) 100%);"></div>
+          </div>
+          <!-- SVG Pattern -->
+          <div class="absolute inset-0 z-0 pointer-events-none opacity-40">
+            <svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
+              <defs>
+                <radialGradient id="title-sponsor-bg2" cx="50%" cy="50%" r="80%">
+                  <stop offset="0%" stop-color="#fff" stop-opacity="0.7"/>
+                  <stop offset="100%" stop-color="#FBBC04" stop-opacity="0.18"/>
+                </radialGradient>
+                <pattern id="dotgrid" width="60" height="60" patternUnits="userSpaceOnUse">
+                  <circle cx="30" cy="30" r="2.5" fill="#4285F4" fill-opacity="0.12"/>
+                  <circle cx="10" cy="10" r="1.5" fill="#FBBC04" fill-opacity="0.10"/>
+                  <circle cx="50" cy="50" r="1.5" fill="#0F9D58" fill-opacity="0.10"/>
+                </pattern>
+              </defs>
+              <rect width="100%" height="100%" fill="url(#dotgrid)"/>
+              <circle cx="50%" cy="50%" r="320" fill="url(#title-sponsor-bg2)"/>
+            </svg>
+          </div>
+          <div class="container mx-auto px-6 text-center relative z-10">
+            <h2 class="text-4xl md:text-5xl font-extrabold mb-8 gradient-text">Title Sponsor</h2>
+            <div class="flex justify-center items-center mt-8">
+              <a href="https://developers.google.com/" target="_blank" rel="noopener" class="block p-10 bg-white/95 rounded-3xl shadow-2xl hover:shadow-blue-200 transition-all border-2 border-blue-100 hover:scale-105 w-[340px] md:w-[400px]">
+                <img src="https://developers.google.com/static/site-assets/images/home/developers-social-media.png" alt="Google Developers Logo" class="h-24 mx-auto mb-4 drop-shadow-lg transition-transform duration-300" style="object-fit:contain;">
+                <div class="font-bold text-2xl text-gray-800 tracking-wide mb-1">Google Developers</div>
+                <div class="text-sm text-gray-500">Empowering Developers Worldwide</div>
+              </a>
+            </div>
+          </div>
+        </section>
+        <style>
+        @keyframes gradient-move {
+          0% { background-position: 0% 50%; }
+          100% { background-position: 100% 50%; }
+        }
+        .animate-gradient-move {
+          background-size: 200% 200%;
+          animation: gradient-move 8s linear infinite alternate;
+        }
+        </style>
+
+        <!-- Bronze Sponsors Section -->
+        <section id="bronze-sponsors" class="py-24 border-t border-b border-gray-100 relative overflow-hidden" style="background: linear-gradient(120deg, #fff 60%, #e3f0ff 100%);">
+          <!-- Animated Gradient Overlay -->
+          <div class="absolute inset-0 z-0 pointer-events-none">
+            <div class="w-full h-full animate-gradient-move" style="background: linear-gradient(120deg, rgba(251,188,4,0.10) 0%, rgba(66,133,244,0.08) 100%);"></div>
+          </div>
+          <!-- SVG Pattern -->
+          <div class="absolute inset-0 z-0 pointer-events-none opacity-40">
+            <svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
+              <defs>
+                <radialGradient id="bronze-sponsor-bg2" cx="60%" cy="40%" r="80%">
+                  <stop offset="0%" stop-color="#fff" stop-opacity="0.7"/>
+                  <stop offset="100%" stop-color="#FBBC04" stop-opacity="0.18"/>
+                </radialGradient>
+                <pattern id="bronze-dotgrid" width="60" height="60" patternUnits="userSpaceOnUse">
+                  <circle cx="30" cy="30" r="2.5" fill="#FBBC04" fill-opacity="0.13"/>
+                  <circle cx="10" cy="10" r="1.5" fill="#4285F4" fill-opacity="0.10"/>
+                  <circle cx="50" cy="50" r="1.5" fill="#0F9D58" fill-opacity="0.10"/>
+                </pattern>
+              </defs>
+              <rect width="100%" height="100%" fill="url(#bronze-dotgrid)"/>
+              <circle cx="60%" cy="40%" r="320" fill="url(#bronze-sponsor-bg2)"/>
+            </svg>
+          </div>
+          <div class="container mx-auto px-6 text-center relative z-10">
+            <h2 class="text-4xl md:text-5xl font-extrabold mb-8 gradient-text">Bronze Sponsors</h2>
+            <div class="flex flex-wrap justify-center gap-12 items-center mt-8">
+              <a href="https://iteindia.in/" target="_blank" rel="noopener" class="group block p-8 bg-white/90 rounded-2xl shadow-2xl hover:shadow-yellow-200 transition-all border-2 border-yellow-100 hover:scale-105 w-64">
+                <img src="https://iteindia.in/wp-content/uploads/2025/07/ddd2.png" alt="ITE Logo" class="h-20 mx-auto mb-4 drop-shadow-lg group-hover:scale-110 transition-transform duration-300">
+                <div class="font-bold text-lg text-gray-800 tracking-wide mb-1">ITE</div>
+                <div class="text-xs text-gray-500">Cloud, DevOps & IT Training</div>
+              </a>
+              <a href="https://technoduxx.com/" target="_blank" rel="noopener" class="group block p-8 bg-white/90 rounded-2xl shadow-2xl hover:shadow-blue-200 transition-all border-2 border-blue-100 hover:scale-105 w-64">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDNvKLGkj3efE19ktr5lcFQjB3iu2Dh23giQ&s" alt="Technoduxx Logo" class="h-20 mx-auto mb-4 drop-shadow-lg group-hover:scale-110 transition-transform duration-300" style="background:#fff;object-fit:contain;border-radius:12px;">
+                <div class="font-bold text-lg text-gray-800 tracking-wide mb-1">Technoduxx</div>
+                <div class="text-xs text-gray-500">Digital Transformation & Consulting</div>
+              </a>
+            </div>
+          </div>
+        </section>
+
         <!-- FAQ Section -->
         <section id="faq" class="py-24">
             <div class="container mx-auto px-6">

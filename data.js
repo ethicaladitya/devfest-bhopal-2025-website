@@ -38,7 +38,6 @@ const websiteData = {
     { "text": "Team", "url": "team.html" },
     { "text": "Tickets", "url": "tickets.html" },
     { "text": "Partners", "url": "partners.html" },
-    { "text": "Call for Sponsors", "url": "call-for-sponsors.html" }
   ],
   "hero": {
     "title": "Cloud Community Day Bhopal 2025",
@@ -296,36 +295,29 @@ const websiteData = {
         "category": "Technical Sessions - Block 1: The Agentic Age & AI Applications",
         "items": [
           {
-            "time": "10:30 AM - 10:45 AM",
-            "title": "Session 1: Say Hi to Agents: Welcome to the Era of Agentic AI",
-            "speaker": "Antrixsh Gupta",
-            "speakerTitle": "Principal AI Architect, Genzeon",
-            "type": "talk"
-          },
-          {
-            "time": "10:50 AM - 11:15 AM",
-            "title": "Session 2: Mastering Google Gemini: Your All-in-One Career Co-Pilot",
+            "time": "10:30 AM - 10:55 AM",
+            "title": "Session 1: Mastering Google Gemini: Your All-in-One Career Co-Pilot",
             "speaker": "Kripesh Adwani",
             "speakerTitle": "CEO, UpSkillAI",
             "type": "talk"
           },
           {
-            "time": "11:20 AM - 11:45 AM",
-            "title": "Session 3: NotebookLM to Conquer Complex Topics",
+            "time": "11:00 AM - 11:25 AM",
+            "title": "Session 2: NotebookLM to Conquer Complex Topics",
             "speaker": "Ashish Kolarkar",
             "speakerTitle": "CEO, Datatrack",
             "type": "talk"
           },
           {
-            "time": "11:50 AM - 12:15 PM",
-            "title": "Session 4: From Pretrained to Powerful: Fine-Tune Gemma on GCP Vertex AI",
+            "time": "11:30 AM - 11:55 AM",
+            "title": "Session 3: From Pretrained to Powerful: Fine-Tune Gemma on GCP Vertex AI",
             "speaker": "Geeta Kakrani",
             "speakerTitle": "CEO, Founder, Kanishka IT",
             "type": "talk"
           },
           {
-            "time": "12:20 PM - 12:45 PM",
-            "title": "Session 5: Building Next-Gen Intelligent Self-Service on Google Cloud",
+            "time": "12:00 PM - 12:25 PM",
+            "title": "Session 4: Building Next-Gen Intelligent Self-Service on Google Cloud",
             "speaker": "Saurabh Mishra",
             "speakerTitle": "DevOps Lead, TSYS",
             "type": "talk"
