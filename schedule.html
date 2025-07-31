@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-SXVGM5H3S0"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-SXVGM5H3S0');
+  </script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Schedule - Cloud Community Day Bhopal 2025</title>
+  <meta name="description" content="Complete conference schedule for Google Cloud Community Day Bhopal 2025. View all sessions, speakers, and timings for August 3rd, 2025.">
+  <meta name="keywords" content="Google Cloud, Community Day, Bhopal, Schedule, Conference, Speakers, Sessions">
+  <meta property="og:title" content="Schedule - Cloud Community Day Bhopal 2025">
+  <meta property="og:description" content="Complete conference schedule for Google Cloud Community Day Bhopal 2025. View all sessions, speakers, and timings for August 3rd, 2025.">
+  <meta property="og:type" content="website">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Google+Sans:wght@400;500;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <style>
+    .schedule-container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 1.5rem;
+    }
+    .schedule-section {
+      margin-bottom: 3rem;
+      background: white;
+      border-radius: 16px;
+      box-shadow: 0 2px 16px rgba(66, 133, 244, 0.08);
+      overflow: hidden;
+    }
+    .section-header {
+      background: linear-gradient(135deg, #4285F4 0%, #34A853 100%);
+      color: white;
+      padding: 1.5rem 2rem;
+      margin: 0;
+    }
+    .section-header h3 {
+      margin: 0;
+      font-size: 1.5rem;
+      font-weight: 600;
+    }
+    .section-note {
+      font-size: 0.9rem;
+      opacity: 0.9;
+      margin-top: 0.5rem;
+    }
+    .schedule-item {
+      padding: 1.5rem 2rem;
+      border-bottom: 1px solid #f0f0f0;
+      display: flex;
+      gap: 2rem;
+      align-items: flex-start;
+    }
+    .schedule-item:last-child {
+      border-bottom: none;
+    }
+    .time-slot {
+      font-weight: 600;
+      color: #4285F4;
+      min-width: 140px;
+      font-size: 0.95rem;
+      white-space: nowrap;
+    }
+    .session-content {
+      flex: 1;
+    }
+    .session-title {
+      font-size: 1.1rem;
+      font-weight: 600;
+      color: #1a73e8;
+      margin-bottom: 0.5rem;
+      line-height: 1.4;
+    }
+    .session-speaker {
+      font-weight: 500;
+      color: #34A853;
+      margin-bottom: 0.5rem;
+    }
+    .session-description {
+      color: #5f6368;
+      line-height: 1.5;
+      font-size: 0.95rem;
+    }
+    .session-type-keynote .session-title {
+      color: #EA4335;
+    }
+    .session-type-panel .session-title {
+      color: #FBBC04;
+    }
+    .session-type-break {
+      background: #f8f9fa;
+    }
+    .session-type-break .session-title {
+      color: #5f6368;
+    }
+    @media (max-width: 768px) {
+      .schedule-item {
+        flex-direction: column;
+        gap: 0.5rem;
+        padding: 1rem 1.5rem;
+      }
+      .time-slot {
+        min-width: auto;
+        font-size: 0.9rem;
+      }
+      .section-header {
+        padding: 1rem 1.5rem;
+      }
+      .section-header h3 {
+        font-size: 1.25rem;
+      }
+    }
+  </style>
+</head>
+<body class="bg-gray-50 antialiased">
+  <!-- Header -->
+  <header class="nav-header sticky top-0 z-50">
+    <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
+      <a href="index.html" class="logo-container flex items-center space-x-3">
+        <img id="header-logo-img" src="" alt="Google Cloud Logo" class="h-14 w-auto max-h-16 object-contain">
+      </a>
+      <!-- Desktop Navigation -->
+      <div id="nav-links" class="hidden lg:flex items-center space-x-2">
+        <!-- Dynamic Nav Links -->
+      </div>
+      <!-- Mobile Menu Button -->
+      <button id="mobile-menu-btn" class="lg:hidden p-2 text-gray-700 hover:text-blue-600 focus:outline-none transition-all duration-300 hover:scale-110">
+        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+        </svg>
+      </button>
+      <a id="nav-cta" href="tickets.html" class="hidden lg:inline-block btn-primary text-sm font-medium px-6 py-3">Get Tickets</a>
+    </nav>
+    <!-- Mobile Menu -->
+    <div id="mobile-menu" class="mobile-menu hidden lg:hidden">
+      <div class="container mx-auto px-6 py-4">
+        <div id="mobile-nav-links" class="space-y-1">
+          <!-- Dynamic Mobile Nav Links -->
+        </div>
+        <div class="mt-6 pt-4 border-t border-gray-200">
+          <a id="mobile-nav-cta" href="tickets.html" class="block text-center btn-primary text-sm font-medium px-6 py-3">Get Tickets</a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="bg-gradient-to-br from-blue-600 via-blue-700 to-blue-800 text-white py-20 text-center">
+    <div class="container mx-auto px-6">
+      <h1 class="text-4xl md:text-5xl font-extrabold mb-4 gradient-text" id="schedule-title">Conference Schedule</h1>
+      <p class="text-xl max-w-3xl mx-auto mb-6" id="schedule-subtitle">Sunday, August 3rd, 2025 at Kushabhau Thakre International Convention Centre (Minto Hall), Bhopal</p>
+    </div>
+  </section>
+
+  <!-- Schedule Content -->
+  <section class="py-16 bg-gray-50">
+    <div class="container mx-auto px-6">
+      <div class="schedule-container">
+        <div id="schedule-content">
+          <!-- Schedule sections will be populated by JavaScript -->
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-100 border-t border-gray-200">
+    <div class="container mx-auto px-6 py-12 text-center">
+      <p class="text-xs text-gray-500" id="footer-copyright">Made with ❤️ by GDG Cloud Bhopal</p>
+    </div>
+  </footer>
+
+  <script src="data.js"></script>
+  <script>
+    // Populate page content from data.js
+    function populateSchedule() {
+      const scheduleData = websiteData.schedule;
+      
+      // Update page title and subtitle
+      document.getElementById('schedule-title').textContent = scheduleData.title;
+      document.getElementById('schedule-subtitle').textContent = scheduleData.subtitle;
+      
+      // Populate schedule content
+      const scheduleContent = document.getElementById('schedule-content');
+      scheduleContent.innerHTML = '';
+      
+      scheduleData.sessions.forEach(section => {
+        const sectionDiv = document.createElement('div');
+        sectionDiv.className = 'schedule-section';
+        
+        // Section header
+        const headerDiv = document.createElement('div');
+        headerDiv.className = 'section-header';
+        
+        const headerTitle = document.createElement('h3');
+        headerTitle.textContent = section.category;
+        headerDiv.appendChild(headerTitle);
+        
+        if (section.note) {
+          const noteDiv = document.createElement('div');
+          noteDiv.className = 'section-note';
+          noteDiv.textContent = section.note;
+          headerDiv.appendChild(noteDiv);
+        }
+        
+        sectionDiv.appendChild(headerDiv);
+        
+        // Section items
+        section.items.forEach(item => {
+          const itemDiv = document.createElement('div');
+          itemDiv.className = `schedule-item session-type-${item.type}`;
+          
+          const timeDiv = document.createElement('div');
+          timeDiv.className = 'time-slot';
+          timeDiv.textContent = item.time;
+          
+          const contentDiv = document.createElement('div');
+          contentDiv.className = 'session-content';
+          
+          const titleDiv = document.createElement('div');
+          titleDiv.className = 'session-title';
+          titleDiv.textContent = item.title;
+          contentDiv.appendChild(titleDiv);
+          
+          if (item.speaker) {
+            const speakerDiv = document.createElement('div');
+            speakerDiv.className = 'session-speaker';
+            speakerDiv.textContent = `${item.speaker} - ${item.speakerTitle}`;
+            contentDiv.appendChild(speakerDiv);
+          }
+          
+          if (item.description) {
+            const descDiv = document.createElement('div');
+            descDiv.className = 'session-description';
+            descDiv.textContent = item.description;
+            contentDiv.appendChild(descDiv);
+          }
+          
+          itemDiv.appendChild(timeDiv);
+          itemDiv.appendChild(contentDiv);
+          sectionDiv.appendChild(itemDiv);
+        });
+        
+        scheduleContent.appendChild(sectionDiv);
+      });
+    }
+    
+    // Navigation functionality (consistent with other pages)
+    function createNavLink(item, isActive = false) {
+      const link = document.createElement('a');
+      link.href = item.url;
+      link.className = isActive ? 'nav-link active' : 'nav-link';
+      link.textContent = item.text;
+      return link;
+    }
+
+    function createDropdownNav(item) {
+      const dropdownContainer = document.createElement('div');
+      dropdownContainer.className = 'relative group';
+      
+      const mainLink = document.createElement('a');
+      mainLink.href = '#';
+      mainLink.className = 'nav-link flex items-center';
+      mainLink.innerHTML = `${item.text} <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>`;
+      
+      const dropdown = document.createElement('div');
+      dropdown.className = 'absolute left-0 mt-2 w-48 bg-white rounded-md shadow-lg py-2 z-10 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200';
+      
+      item.submenu.forEach(subItem => {
+        const subLink = document.createElement('a');
+        subLink.href = subItem.url;
+        subLink.className = 'block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100';
+        subLink.textContent = subItem.text;
+        dropdown.appendChild(subLink);
+      });
+      
+      dropdownContainer.appendChild(mainLink);
+      dropdownContainer.appendChild(dropdown);
+      return dropdownContainer;
+    }
+
+    function populateNavigation() {
+      const navLinks = document.getElementById('nav-links');
+      const mobileNavLinks = document.getElementById('mobile-nav-links');
+      
+      websiteData.navigation.forEach(item => {
+        if (item.submenu) {
+          // Desktop dropdown
+          navLinks.appendChild(createDropdownNav(item));
+          
+          // Mobile submenu
+          const mobileHeader = document.createElement('div');
+          mobileHeader.className = 'mobile-nav-header';
+          mobileHeader.textContent = item.text;
+          mobileNavLinks.appendChild(mobileHeader);
+          
+          item.submenu.forEach(subItem => {
+            const mobileSubLink = document.createElement('a');
+            mobileSubLink.href = subItem.url;
+            mobileSubLink.className = 'mobile-nav-link mobile-nav-sublink';
+            mobileSubLink.textContent = subItem.text;
+            mobileNavLinks.appendChild(mobileSubLink);
+          });
+        } else {
+          // Regular navigation links
+          const isActive = item.url === 'schedule.html';
+          navLinks.appendChild(createNavLink(item, isActive));
+          
+          // Mobile navigation
+          const mobileLink = document.createElement('a');
+          mobileLink.href = item.url;
+          mobileLink.className = isActive ? 'mobile-nav-link active' : 'mobile-nav-link';
+          mobileLink.textContent = item.text;
+          mobileNavLinks.appendChild(mobileLink);
+        }
+      });
+    }
+
+    // Mobile menu toggle
+    function setupMobileMenu() {
+      const mobileMenuBtn = document.getElementById('mobile-menu-btn');
+      const mobileMenu = document.getElementById('mobile-menu');
+      
+      mobileMenuBtn.addEventListener('click', () => {
+        mobileMenu.classList.toggle('hidden');
+      });
+    }
+    
+    // Initialize page
+    document.addEventListener('DOMContentLoaded', function() {
+      // Set logo
+      document.getElementById('header-logo-img').src = websiteData.site.logo.light;
+      
+      // Set page title
+      document.title = `${websiteData.schedule.title} - ${websiteData.site.title}`;
+      
+      // Populate content
+      populateNavigation();
+      populateSchedule();
+      setupMobileMenu();
+      
+      // Set footer copyright
+      document.getElementById('footer-copyright').textContent = websiteData.footer.copyright;
+    });
+  </script>
+</body>
+</html>
