@@ -33,6 +33,7 @@ const websiteData = {
         { "text": "FAQ", "url": "index.html#faq" }
       ]
     },
+    { "text": "Schedule", "url": "schedule.html" },
     { "text": "Venue", "url": "venue.html" },
     { "text": "Team", "url": "team.html" },
     { "text": "Tickets", "url": "tickets.html" },
@@ -260,6 +261,155 @@ const websiteData = {
         "company": "Student",
         "imageUrl": "https://media.licdn.com/dms/image/v2/D4D03AQGeouOQl3RynQ/profile-displayphoto-shrink_400_400/B4DZU82Fh_GkAk-/0/1740482567625?e=1758153600&v=beta&t=WaMc955WT2jy8JW4mzP-v7jBbeAdHfTgnfr4ttmPrTA",
         "linkedinUrl": "https://www.linkedin.com/in/vanshrathii/"
+      }
+    ]
+  },
+  "schedule": {
+    "title": "Conference Schedule",
+    "subtitle": "Sunday, August 3rd, 2025 at Kushabhau Thakre International Convention Centre (Minto Hall), Bhopal",
+    "sessions": [
+      {
+        "category": "Morning Session",
+        "items": [
+          {
+            "time": "9:00 AM - 10:00 AM",
+            "title": "Registration & Networking",
+            "description": "Attendees arrive, complete registration, and connect with peers.",
+            "type": "general"
+          },
+          {
+            "time": "10:00 AM - 10:15 AM",
+            "title": "Inaugural Keynote & Organizers' Remarks",
+            "description": "Conference officially begins with a welcome address from the organizing committee, setting the stage for the day.",
+            "type": "keynote"
+          },
+          {
+            "time": "10:15 AM - 10:25 AM",
+            "title": "Chief Guest's Keynote Address",
+            "speaker": "",
+            "description": "",
+            "type": "keynote"
+          },
+        ]
+      },
+      {
+        "category": "Technical Sessions - Block 1: The Agentic Age & AI Applications",
+        "items": [
+          {
+            "time": "10:30 AM - 10:45 AM",
+            "title": "Session 1: Say Hi to Agents: Welcome to the Era of Agentic AI",
+            "speaker": "Antrixsh Gupta",
+            "speakerTitle": "Principal AI Architect, Genzeon",
+            "type": "talk"
+          },
+          {
+            "time": "10:50 AM - 11:15 AM",
+            "title": "Session 2: Mastering Google Gemini: Your All-in-One Career Co-Pilot",
+            "speaker": "Kripesh Adwani",
+            "speakerTitle": "CEO, UpSkillAI",
+            "type": "talk"
+          },
+          {
+            "time": "11:20 AM - 11:45 AM",
+            "title": "Session 3: NotebookLM to Conquer Complex Topics",
+            "speaker": "Ashish Kolarkar",
+            "speakerTitle": "CEO, Datatrack",
+            "type": "talk"
+          },
+          {
+            "time": "11:50 AM - 12:15 PM",
+            "title": "Session 4: From Pretrained to Powerful: Fine-Tune Gemma on GCP Vertex AI",
+            "speaker": "Geeta Kakrani",
+            "speakerTitle": "CEO, Founder, Kanishka IT",
+            "type": "talk"
+          },
+          {
+            "time": "12:20 PM - 12:45 PM",
+            "title": "Session 5: Building Next-Gen Intelligent Self-Service on Google Cloud",
+            "speaker": "Saurabh Mishra",
+            "speakerTitle": "DevOps Lead, TSYS",
+            "type": "talk"
+          }
+        ]
+      },
+      {
+        "category": "Lunch Break",
+        "items": [
+          {
+            "time": "12:45 PM - 2:15 PM",
+            "title": "Lunch & Networking",
+            "description": "A dedicated break for attendees to enjoy lunch, engage in further networking.",
+            "type": "break"
+          }
+        ]
+      },
+      {
+        "category": "Technical Sessions - Block 2: Cloud Infrastructure, Operations & Modern Development",
+        "items": [
+          {
+            "time": "2:15 PM - 2:40 PM",
+            "title": "Session 6: How to Secure AI Workload",
+            "speaker": "Biswanath Giri",
+            "speakerTitle": "Cloud and AI Principal Architect, LTIMindtree",
+            "type": "talk"
+          },
+          {
+            "time": "2:45 PM - 3:10 PM",
+            "title": "Session 7: Kubernetes for Beginners: Your First Step into Cloud-Native",
+            "speaker": "Parth Arora",
+            "speakerTitle": "Senior Software Engineer, IBM India",
+            "type": "talk"
+          },
+          {
+            "time": "3:15 PM - 3:40 PM",
+            "title": "Session 8: No server, No stress: Build smart cloud workflows the low code way",
+            "speaker": "Jyoti Mishra",
+            "speakerTitle": "SDE-4, Evertz Microsystems",
+            "type": "talk"
+          },
+          {
+            "time": "3:45 PM - 4:10 PM",
+            "title": "Session 9: Cloud Intelligence Dashboard",
+            "speaker": "Anand Mehta",
+            "speakerTitle": "Senior FinOps Specialist, Nasdaq",
+            "type": "talk"
+          },
+          {
+            "time": "4:15 PM - 4:30 PM",
+            "title": "Session 10: Design Thinking and Transforming Business",
+            "speaker": "Poorvi Arora",
+            "speakerTitle": "Delivery Manager, Technoduxx",
+            "type": "talk"
+          }
+        ]
+      },
+      {
+        "category": "Panel Discussion",
+        "items": [
+          {
+            "time": "4:35 PM - 5:15 PM",
+            "title": "The Agentic Age & Future Workforce: An Ecosystem Dialogue with IT Leaders, Founders, and Skill Development Pioneers",
+            "description": "A dynamic 40-minute discussion with diverse experts, including IT company leaders, startup founders, coaching institute representatives, and the founder/director of the Global Skill Park.",
+            "type": "panel"
+          }
+        ]
+      },
+      {
+        "category": "Concluding Session",
+        "items": [
+          {
+            "time": "5:15 PM - 5:30 PM",
+            "title": "Closing Remarks & Vote of Thanks",
+            "description": "Organizers provide a summary of the day, express gratitude to speakers, sponsors, and attendees, and announce future events.",
+            "type": "general"
+          },
+          {
+            "time": "5:30 PM onwards",
+            "title": "Swag Distribution, Networking & Departure",
+            "description": "Final opportunities for networking before attendees depart.",
+            "type": "general"
+          }
+        ]
       }
     ]
   },
