@@ -296,16 +296,16 @@ const websiteData = {
         "items": [
           {
             "time": "10:30 AM - 10:55 AM",
-            "title": "Session 1: Mastering Google Gemini: Your All-in-One Career Co-Pilot",
-            "speaker": "Kripesh Adwani",
-            "speakerTitle": "CEO, UpSkillAI",
+            "title": "Session 1: NotebookLM to Conquer Complex Topics",
+            "speaker": "Ashish Kolarkar",
+            "speakerTitle": "CEO, Datatrack",
             "type": "talk"
           },
           {
             "time": "11:00 AM - 11:25 AM",
-            "title": "Session 2: NotebookLM to Conquer Complex Topics",
-            "speaker": "Ashish Kolarkar",
-            "speakerTitle": "CEO, Datatrack",
+            "title": "Session 2: Mastering Google Gemini: Your All-in-One Career Co-Pilot",
+            "speaker": "Kripesh Adwani",
+            "speakerTitle": "CEO, UpSkillAI",
             "type": "talk"
           },
           {
