@@ -89,13 +89,13 @@ const websiteData = {
       "twitter": "https://x.com/kripeshadwani"
     },
     {
-      "name": "Sumit Kumar",
-      "title": "Cloud Solution Architect",
-      "company": "66degrees",
-      "bio": "Protecting AI Agentic Application with Google Model Armor",
-      "imageUrl": "https://media.licdn.com/dms/image/v2/C4E03AQHapqML7Atgww/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1640710112920?e=1755734400&v=beta&t=-_E5Wr3CGXQFi5k3yIeYu6G_VbPjD_1MepLjM8ghQWg",
-      "linkedin": "linkedin.com/in/sumit-kumar-ab2059132",
-      "twitter": "https://x.com/sumit75817441"
+      "name": "Poorvi Arora ",
+      "title": "Delivery Manager",
+      "company": "Technoduxx",
+      "bio": "Design Thinking",
+      "imageUrl": "https://media.licdn.com/dms/image/v2/D4D03AQES93xEnQ4pSQ/profile-displayphoto-shrink_400_400/B4DZT0RftkG4Ag-/0/1739265017173?e=1756944000&v=beta&t=BFCmlXtEyH60GJBcuCHZjX-Nx2McFOQqtbtHFmrAMPI",
+      "linkedin": "https://www.linkedin.com/in/poorvi-arora-pmp-%C2%AE-90138335/",
+      "twitter": "https://x.com/poorvi09arora"
     },
     {
       "name": "Parth Arora",
@@ -132,6 +132,15 @@ const websiteData = {
       "imageUrl": "https://media.licdn.com/dms/image/v2/D5603AQFOtrDe3KEUVA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1732168193011?e=1757548800&v=beta&t=BxU5-ksm-vXCpmVFiqSYe5aGritxiEFLXGZS_rrWchY",
       "linkedin": "https://www.linkedin.com/in/connectsaurabhmishra/",
       "twitter": "#"
+    },
+    {
+      "name": "Antrixsh Gupta",
+      "title": "Principal AI Architect ",
+      "company": "Genzeon",
+      "bio": "Say Hi to Agents: Welcome to the Era of Agentic AI",
+      "imageUrl": "https://media.licdn.com/dms/image/v2/C4D03AQGXsOrmJ7mnxw/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1652542385619?e=1756944000&v=beta&t=mE_MsXx9Ey1GW77GMdfWhhliZR4sQU2UksKglHDuxi0",
+      "linkedin": "https://in.linkedin.com/in/antrixshgupta",
+      "twitter": "https://x.com/antrixshg"
     }
   ]
 },
