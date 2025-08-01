@@ -340,35 +340,35 @@ const websiteData = {
         "items": [
           {
             "time": "2:15 PM - 2:40 PM",
-            "title": "Session 6: How to Secure AI Workload",
+            "title": "Session 5: How to Secure AI Workload",
             "speaker": "Biswanath Giri",
             "speakerTitle": "Cloud and AI Principal Architect, LTIMindtree",
             "type": "talk"
           },
           {
             "time": "2:45 PM - 3:10 PM",
-            "title": "Session 7: Kubernetes for Beginners: Your First Step into Cloud-Native",
+            "title": "Session 6: Kubernetes for Beginners: Your First Step into Cloud-Native",
             "speaker": "Parth Arora",
             "speakerTitle": "Senior Software Engineer, IBM India",
             "type": "talk"
           },
           {
             "time": "3:15 PM - 3:40 PM",
-            "title": "Session 8: No server, No stress: Build smart cloud workflows the low code way",
+            "title": "Session 7: No server, No stress: Build smart cloud workflows the low code way",
             "speaker": "Jyoti Mishra",
             "speakerTitle": "SDE-4, Evertz Microsystems",
             "type": "talk"
           },
           {
             "time": "3:45 PM - 4:10 PM",
-            "title": "Session 9: Cloud Intelligence Dashboard",
+            "title": "Session 8: Cloud Intelligence Dashboard",
             "speaker": "Anand Mehta",
             "speakerTitle": "Senior FinOps Specialist, Nasdaq",
             "type": "talk"
           },
           {
             "time": "4:15 PM - 4:30 PM",
-            "title": "Session 10: Design Thinking and Transforming Business",
+            "title": "Session 9: Design Thinking and Transforming Business",
             "speaker": "Poorvi Arora",
             "speakerTitle": "Delivery Manager, Technoduxx",
             "type": "talk"
