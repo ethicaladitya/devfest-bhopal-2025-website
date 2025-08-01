@@ -225,7 +225,7 @@ const websiteData = {
         "profileUrl": "https://www.linkedin.com/in/shivammishra-styx/",
         "imageUrl": "https://media.licdn.com/dms/image/v2/D5603AQGS_duKqeyquQ/profile-displayphoto-scale_400_400/B56Zhk2E7wHUAg-/0/1754038556493?e=1756944000&v=beta&t=jHi1JkxVo30EAh7SXmth4W1ewZgqZII809cD-PS-vog",
         "skills": ["React", "Node.js", "Google Cloud"]
-      },
+      }
       
     ],
     "coreTeam": [
