@@ -216,7 +216,16 @@ const websiteData = {
         "profileUrl": "https://www.linkedin.com/in/mayurrathi26/",
         "imageUrl": "https://pbs.twimg.com/profile_images/1378894474718351362/vuLAZU4a_400x400.jpg",
         "skills": ["Cloud Architecture", "DevOps", "Team Leadership"]
-      }
+      },
+      {
+        "name": "Shivam Mishra",
+        "role": "Co-Organizer",
+        "company": "Sansys Informatics ",
+        "bio": "Tech enthusiast focused on emerging technologies, valuing collaboration and growth.",
+        "profileUrl": "https://www.linkedin.com/in/shivammishra-styx/",
+        "imageUrl": "https://media.licdn.com/dms/image/v2/D5603AQGS_duKqeyquQ/profile-displayphoto-scale_400_400/B56Zhk2E7wHUAg-/0/1754038556493?e=1756944000&v=beta&t=jHi1JkxVo30EAh7SXmth4W1ewZgqZII809cD-PS-vog",
+        "skills": ["React", "Node.js", "Google Cloud"]
+      },
     ],
     "coreTeam": [
   {
@@ -226,13 +235,7 @@ const websiteData = {
     "imageUrl": "https://media.licdn.com/dms/image/v2/D4D03AQHtmWm-DlewQw/profile-displayphoto-shrink_400_400/B4DZWaOjehHYAk-/0/1742049272157?e=1756944000&v=beta&t=EV-ANd7OQnFrwVzWBsHUYLtMdMvullL15gH493DKIsc",
     "linkedinUrl": "https://www.linkedin.com/in/shashank-jain-ba392022b/"
   },
-  {
-    "name": "Shivam Mishra",
-    "role": "Volunteer Lead",
-    "company": "Professional",
-    "imageUrl": "https://media.licdn.com/dms/image/v2/D5603AQFhaTLZtcrk7A/profile-displayphoto-scale_400_400/B56Zed0qo.GQAo-/0/1750699521584?e=1756944000&v=beta&t=TabtqO5vEFD1FIoW8BYTRj4UwpKZjpwrVjZtMjwaZkU",
-    "linkedinUrl": "https://www.linkedin.com/in/shivammishra-styx/"
-  },
+  
   {
     "name": "Akshita Gupta",
     "role": "Social Media",
@@ -252,7 +255,7 @@ const websiteData = {
     "role": "Graphics / Video Editing ",
     "company": "Student",
     "imageUrl": "https://media.licdn.com/dms/image/v2/D4D03AQHXFJaWTf3abg/profile-displayphoto-scale_400_400/B4DZhKJuJlGgAg-/0/1753590721511?e=1756944000&v=beta&t=iZkS1y7njkg5RJwseUTNqDgUkaieYY0Umu0SusGqJ4g",
-    "linkedinUrl": "https://www.linkedin.com/in/ninay-jain-51970927a/"
+    "linkedinUrl": "https://www.linkedin.com/in/adityakushwaha19/"
   },
   {
     "name": "Krishika Verma",
@@ -270,7 +273,7 @@ const websiteData = {
   },
   {
     "name": "Md Farid",
-    "role": "Event Management",
+    "role": "Graphics",
     "company": "Student",
     "imageUrl": "https://media.licdn.com/dms/image/v2/D4D03AQFNz-idFaucYg/profile-displayphoto-shrink_400_400/B4DZhDWHMIHAAg-/0/1753476528932?e=1756944000&v=beta&t=xnool9XiFhrwZ7KAtjN0TiFWfI_HaVx3HB1ZnbYbH8A",
     "linkedinUrl": "https://www.linkedin.com/in/md-farid-1aa563291/"
@@ -299,7 +302,7 @@ const websiteData = {
   },
   {
     "name": "Prem Raj",
-    "role": "Social Media",
+    "role": "Video Editing",
     "company": "Student",
     "imageUrl": "https://media.licdn.com/dms/image/v2/D4D03AQEOccp1L9aDlg/profile-displayphoto-shrink_400_400/B4DZTELozGG8Ak-/0/1738458174077?e=1756944000&v=beta&t=VxXh7glFsVaGsAWnvWhebb8ybo3-Boz5atRUACgHnPI",
     "linkedinUrl": "https://www.linkedin.com/in/prem-raj-b0a621287?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
@@ -320,7 +323,7 @@ const websiteData = {
   },
   {
     "name": "Vansh Rathi",
-    "role": "Promotion",
+    "role": "Outreach and Parternship",
     "company": "Student",       
     "imageUrl": "https://media.licdn.com/dms/image/v2/D4D03AQGeouOQl3RynQ/profile-displayphoto-shrink_400_400/B4DZU82Fh_GkAk-/0/1740482567625?e=1756944000&v=beta&t=jQyIw5cjTIfBL0vkF4jHlrwPO5DpuRRcIq19taOJw3U",
     "linkedinUrl": "https://www.linkedin.com/in/vanshrathii"
