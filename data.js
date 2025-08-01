@@ -132,15 +132,6 @@ const websiteData = {
       "imageUrl": "https://media.licdn.com/dms/image/v2/D5603AQFOtrDe3KEUVA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1732168193011?e=1757548800&v=beta&t=BxU5-ksm-vXCpmVFiqSYe5aGritxiEFLXGZS_rrWchY",
       "linkedin": "https://www.linkedin.com/in/connectsaurabhmishra/",
       "twitter": "#"
-    },
-    {
-      "name": "Antrixsh Gupta",
-      "title": "Principal AI Architect ",
-      "company": "Genzeon",
-      "bio": "Say Hi to Agents: Welcome to the Era of Agentic AI",
-      "imageUrl": "https://media.licdn.com/dms/image/v2/C4D03AQGXsOrmJ7mnxw/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1652542385619?e=1756944000&v=beta&t=mE_MsXx9Ey1GW77GMdfWhhliZR4sQU2UksKglHDuxi0",
-      "linkedin": "https://in.linkedin.com/in/antrixshgupta",
-      "twitter": "https://x.com/antrixshg"
     }
   ]
 },
