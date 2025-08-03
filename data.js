@@ -89,13 +89,13 @@ const websiteData = {
       "twitter": "https://x.com/kripeshadwani"
     },
     {
-      "name": "Poorvi Arora ",
-      "title": "Delivery Manager",
-      "company": "Technoduxx",
-      "bio": "Design Thinking",
-      "imageUrl": "https://media.licdn.com/dms/image/v2/D4D03AQES93xEnQ4pSQ/profile-displayphoto-shrink_400_400/B4DZT0RftkG4Ag-/0/1739265017173?e=1756944000&v=beta&t=BFCmlXtEyH60GJBcuCHZjX-Nx2McFOQqtbtHFmrAMPI",
-      "linkedin": "https://www.linkedin.com/in/poorvi-arora-pmp-%C2%AE-90138335/",
-      "twitter": "https://x.com/poorvi09arora"
+      "name": "Sumit Kumar",
+      "title": "Cloud Solution Architect",
+      "company": "66degrees",
+      "bio": "Protecting AI Agentic Application with Google Model Armor",
+      "imageUrl": "https://media.licdn.com/dms/image/v2/C4E03AQHapqML7Atgww/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1640710112920?e=1755734400&v=beta&t=-_E5Wr3CGXQFi5k3yIeYu6G_VbPjD_1MepLjM8ghQWg",
+      "linkedin": "linkedin.com/in/sumit-kumar-ab2059132",
+      "twitter": "https://x.com/sumit75817441"
     },
     {
       "name": "Parth Arora",
@@ -216,122 +216,52 @@ const websiteData = {
         "profileUrl": "https://www.linkedin.com/in/mayurrathi26/",
         "imageUrl": "https://pbs.twimg.com/profile_images/1378894474718351362/vuLAZU4a_400x400.jpg",
         "skills": ["Cloud Architecture", "DevOps", "Team Leadership"]
+      }
+    ],
+    "coreTeam": [
+      {
+        "name": "Shashank Jain",
+        "role": "Social Media",
+        "company": "Student",
+        "imageUrl": "https://media.licdn.com/dms/image/v2/D4D03AQHtmWm-DlewQw/profile-displayphoto-shrink_400_400/B4DZWaOjehHYAk-/0/1742049272157?e=1758153600&v=beta&t=EMXAfynokgR1n6INVPiqPT9P59MZ9WW4DHMr2mTsBZo",
+        "linkedinUrl": "https://www.linkedin.com/in/shashank-jain-ba392022b/"
       },
       {
         "name": "Shivam Mishra",
-        "role": "Co-Organizer",
-        "company": "Sansys Informatics ",
-        "bio": "Tech enthusiast focused on emerging technologies, valuing collaboration and growth.",
-        "profileUrl": "https://www.linkedin.com/in/shivammishra-styx/",
-        "imageUrl": "https://media.licdn.com/dms/image/v2/D5603AQGS_duKqeyquQ/profile-displayphoto-scale_400_400/B56Zhk2E7wHUAg-/0/1754038556493?e=1756944000&v=beta&t=jHi1JkxVo30EAh7SXmth4W1ewZgqZII809cD-PS-vog",
-        "skills": ["React", "Node.js", "Google Cloud"]
+        "role": "Volunteer Lead",
+        "company": "Sansys Informatics",
+        "imageUrl": "https://media.licdn.com/dms/image/v2/D5603AQFhaTLZtcrk7A/profile-displayphoto-scale_400_400/B56Zed0qo.GQAo-/0/1750699521584?e=1758153600&v=beta&t=pPym-5m5LsXLJR7LlcgpXZXgyAdlhhZfbT7ceDB_OGI",
+        "linkedinUrl": "https://www.linkedin.com/in/shivammishra-styx/"
+      },
+      {
+        "name": "Akshita Gupta",
+        "role": "Social Media",
+        "company": "Student",
+        "imageUrl": "https://media.licdn.com/dms/image/v2/D4D03AQHSIEeqkzOxoA/profile-displayphoto-shrink_400_400/B4DZYjDRYoHsAg-/0/1744344783991?e=1758153600&v=beta&t=4Fa1JjpU3gX5rmtFn6ogo1kcVaCnnaqHN9asKdcHw5g",
+        "linkedinUrl": "https://www.linkedin.com/in/gupta-akshitaa/"
+      },
+      {
+        "name": "Parv Baldua",
+        "role": "Graphics",
+        "company": "Student",
+        "imageUrl": "https://2.gravatar.com/avatar/dbc2c1ae49de0231ff9d55171d353abe883d9a344101bd0ac30f3bea9dffef8e?size=512&d=initials",
+        "linkedinUrl": "https://www.linkedin.com/in/parvbaldua/"
+      },
+      {
+        "name": "Deepali Pathak",
+        "role": "Content",
+        "company": "Student",
+        "imageUrl": "https://media.licdn.com/dms/image/v2/D4D03AQFOMmgcOF-QCw/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1689875962089?e=1758153600&v=beta&t=jRIa5Wt2ZT-cakcEGHCjM80ty6qbp_3RQpJStpwoQlQ",
+        "linkedinUrl": "https://www.linkedin.com/in/deepali-pathak-47479421b/"
+      },
+      {
+        "name": "Vansh Rathi",
+        "role": "Promotion",
+        "company": "Student",
+        "imageUrl": "https://media.licdn.com/dms/image/v2/D4D03AQGeouOQl3RynQ/profile-displayphoto-shrink_400_400/B4DZU82Fh_GkAk-/0/1740482567625?e=1758153600&v=beta&t=WaMc955WT2jy8JW4mzP-v7jBbeAdHfTgnfr4ttmPrTA",
+        "linkedinUrl": "https://www.linkedin.com/in/vanshrathii/"
       }
-      
-    ],
-    "coreTeam": [
-  {
-    "name": "Shashank Jain",
-    "role": "Social Media",
-    "company": "Student",
-    "imageUrl": "https://media.licdn.com/dms/image/v2/D4D03AQHtmWm-DlewQw/profile-displayphoto-shrink_400_400/B4DZWaOjehHYAk-/0/1742049272157?e=1756944000&v=beta&t=EV-ANd7OQnFrwVzWBsHUYLtMdMvullL15gH493DKIsc",
-    "linkedinUrl": "https://www.linkedin.com/in/shashank-jain-ba392022b/"
-  },
-  
-  {
-    "name": "Akshita Gupta",
-    "role": "Social Media",
-    "company": "Professional",
-    "imageUrl": "https://media.licdn.com/dms/image/v2/D4D03AQElHoPrSrzrog/profile-displayphoto-scale_400_400/B4DZhHpDJLHAAg-/0/1753548602288?e=1756944000&v=beta&t=TVn3ijzMHoTfQKi2CW8K5lCSz1-4OhepQSyFa6Hm1F0",
-    "linkedinUrl": "https://www.linkedin.com/in/gupta-akshitaa/"
-  },
-  {
-    "name": "Deepali Pathak",
-    "role": "Content Management",
-    "company": "Student",
-    "imageUrl": "https://media.licdn.com/dms/image/v2/D4D03AQGEG1LYnBFhFA/profile-displayphoto-scale_400_400/B4DZhRcBugHsAg-/0/1753712960522?e=1756944000&v=beta&t=7zaK7T8t1js4D91tXcv-EyeXbYw5DFAurbsKeYy6Vf4",
-    "linkedinUrl": "https://www.linkedin.com/in/deepali-pathak-47479421b/"
-  },
-  {
-    "name": "Aditya Kushwaha",
-    "role": "Graphics / Video Editing ",
-    "company": "Student",
-    "imageUrl": "https://media.licdn.com/dms/image/v2/D4D03AQHXFJaWTf3abg/profile-displayphoto-scale_400_400/B4DZhKJuJlGgAg-/0/1753590721511?e=1756944000&v=beta&t=iZkS1y7njkg5RJwseUTNqDgUkaieYY0Umu0SusGqJ4g",
-    "linkedinUrl": "https://www.linkedin.com/in/adityakushwaha19/"
-  },
-  {
-    "name": "Krishika Verma",
-    "role": "Anchoring",
-    "company": "Student",
-    "imageUrl": "https://media.licdn.com/dms/image/v2/D4D03AQFNPbX2NCknuQ/profile-displayphoto-shrink_400_400/B4DZQNE8ZRHMBw-/0/1735386191347?e=1756944000&v=beta&t=lxEbew2H7SO3wZojFeajj6xqT4e6EhPq0Jw-GKHna7c",
-    "linkedinUrl": "https://www.linkedin.com/in/krishika-verma-309016265"
-  },
-  {
-    "name": "Parv Baldua",
-    "role": "Graphics / Video Editing",
-    "company": "Student",
-    "imageUrl": "https://media.licdn.com/dms/image/v2/D5635AQFp2pJMzW7Byg/profile-framedphoto-shrink_400_400/profile-framedphoto-shrink_400_400/0/1694637568620?e=1754643600&v=beta&t=67nJLTeoIxg0p_QW9aASDu8QFeaB3qzbDAzbeIeQ9QI",
-    "linkedinUrl": "https://www.linkedin.com/in/parvbaldua"
-  },
-  {
-    "name": "Md Farid",
-    "role": "Graphics",
-    "company": "Student",
-    "imageUrl": "https://media.licdn.com/dms/image/v2/D4D03AQFNz-idFaucYg/profile-displayphoto-shrink_400_400/B4DZhDWHMIHAAg-/0/1753476528932?e=1756944000&v=beta&t=xnool9XiFhrwZ7KAtjN0TiFWfI_HaVx3HB1ZnbYbH8A",
-    "linkedinUrl": "https://www.linkedin.com/in/md-farid-1aa563291/"
-  },
-  {
-    "name": "Malay Jain",
-    "role": "Event Management",
-    "company": "Student",
-    "imageUrl": "https://media.licdn.com/dms/image/v2/D4D35AQE587JvZG0-2Q/profile-framedphoto-shrink_400_400/profile-framedphoto-shrink_400_400/0/1735301167800?e=1754643600&v=beta&t=FaKLxuQB3FabxGxD3KwUdqmA0sc1tJEYogLI-8WR2bE",
-    "linkedinUrl": "https://www.linkedin.com/in/malay-jain-mldev"
-  },
-  {
-    "name": "Ninay Jain",
-    "role": "Event Management",
-    "company": "Student",
-    "imageUrl": "https://media.licdn.com/dms/image/v2/D4D35AQH0FIg4f-j-9w/profile-framedphoto-shrink_400_400/profile-framedphoto-shrink_400_400/0/1713950220385?e=1754643600&v=beta&t=1hlr_tLAB7Cfx71etvjEuw9HLnK0ldfkhG36CS7UZVQ",
-    "linkedinUrl": "https://www.linkedin.com/in/ninay-jain-51970927a/"
-  },
-  
-  {
-    "name": "Ishan Bijlani",
-    "role": "Event Management",
-    "company": "Student",
-    "imageUrl": "https://media.licdn.com/dms/image/v2/D4D03AQHzOsv2IMoG6A/profile-displayphoto-scale_400_400/B4DZfpDqsDGgAg-/0/1751961743032?e=1756944000&v=beta&t=HapyFUGbD_0kmd4HtZ55oBEgJgHxSqpcYtduXN9R3PY",
-    "linkedinUrl": "https://www.linkedin.com/in/ishan-bijlani-458284261?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
-  },
-  {
-    "name": "Prem Raj",
-    "role": "Video Editing",
-    "company": "Student",
-    "imageUrl": "https://media.licdn.com/dms/image/v2/D4D03AQEOccp1L9aDlg/profile-displayphoto-shrink_400_400/B4DZTELozGG8Ak-/0/1738458174077?e=1756944000&v=beta&t=VxXh7glFsVaGsAWnvWhebb8ybo3-Boz5atRUACgHnPI",
-    "linkedinUrl": "https://www.linkedin.com/in/prem-raj-b0a621287?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
-  },
-  {
-    "name": "Mahak Rathi",
-    "role": "Outreach ",
-    "company": "Student",
-    "imageUrl": "https://media.licdn.com/dms/image/v2/D4D35AQGelmHQNtTFKg/profile-framedphoto-shrink_400_400/B4DZZ3Ri1fG0Ac-/0/1745757810308?e=1754643600&v=beta&t=50TPkF0zey8QkLCRMR1fFusXGfxvp6KhaGcrpImOLRA",
-    "linkedinUrl": "https://www.linkedin.com/in/mahakrathi/"
-  },
-  {
-    "name": "Anshika Urmaliya",
-    "role": "Event Management",
-    "company": "Student",
-    "imageUrl": "https://media.licdn.com/dms/image/v2/D4D35AQExgCi2ML1PSQ/profile-framedphoto-shrink_400_400/profile-framedphoto-shrink_400_400/0/1704431845976?e=1754643600&v=beta&t=LIntcGaA3Z0BZl1UIpodAT_HmSUzvb1BV3MRrpVXJoE",
-    "linkedinUrl": "https://www.linkedin.com/in/anshika-urmaliya-28461427a/"
-  },
-  {
-    "name": "Vansh Rathi",
-    "role": "Outreach and Parternship",
-    "company": "Student",       
-    "imageUrl": "https://media.licdn.com/dms/image/v2/D4D03AQGeouOQl3RynQ/profile-displayphoto-shrink_400_400/B4DZU82Fh_GkAk-/0/1740482567625?e=1756944000&v=beta&t=jQyIw5cjTIfBL0vkF4jHlrwPO5DpuRRcIq19taOJw3U",
-    "linkedinUrl": "https://www.linkedin.com/in/vanshrathii"
-  }
-  
-]
-
+    ]
   },
   "schedule": {
     "title": "Conference Schedule",
@@ -347,16 +277,9 @@ const websiteData = {
             "type": "general"
           },
           {
-            "time": "10:00 AM - 10:15 AM",
+            "time": "10:00 AM - 10:25 AM",
             "title": "Inaugural Keynote & Organizers' Remarks",
             "description": "Conference officially begins with a welcome address from the organizing committee, setting the stage for the day.",
-            "type": "keynote"
-          },
-          {
-            "time": "10:15 AM - 10:25 AM",
-            "title": "Chief Guest's Keynote Address",
-            "speaker": "",
-            "description": "",
             "type": "keynote"
           },
         ]
@@ -391,6 +314,17 @@ const websiteData = {
             "speaker": "Saurabh Mishra",
             "speakerTitle": "DevOps Lead, TSYS",
             "type": "talk"
+          }
+        ]
+      },
+      {
+        "category": "Family Photo Session outside the auditorium",
+        "items": [
+          {
+            "time": "12:50 PM",
+            "title": "Family Photo",
+            "description": "Group photo session for all attendees, speakers, and organizers.",
+            "type": "general"
           }
         ]
       },
