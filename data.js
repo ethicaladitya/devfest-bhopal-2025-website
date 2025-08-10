@@ -33,14 +33,12 @@ const websiteData = {
         { "text": "FAQ", "url": "index.html#faq" }
       ]
     },
-    { "text": "Schedule", "url": "schedule.html" },
-    { "text": "Venue", "url": "venue.html" },
     { "text": "Team", "url": "team.html" },
     { "text": "Tickets", "url": "tickets.html" },
     { "text": "Partners", "url": "partners.html" },
   ],
   "hero": {
-    "title": "Cloud Community Day Bhopal 2025",
+    "title": "Devfest Bhopal 2025",
     "subtitle": "Join India's top cloud engineers, developers, and architects for a full day of learning, networking, and innovation with Google Cloud technologies."
   },
   "about": {
@@ -49,88 +47,33 @@ const websiteData = {
     "paragraph2": "No matter your experience level, you'll find practical sessions, real-world insights, and a welcoming community to help you grow. Join us to build new skills, make valuable connections, and be part of something bigger."
   },
   "speakers": {
-  "title": "Meet The Experts",
+  "title": "Meet The Organizers",
   "list": [
-    
     {
-      "name": "Biswanath Giri",
-      "title": "Cloud and AI Principal Architect",
-      "company": "LTIMindtree",
-      "bio": "How to Secure AI Workload",
-      "imageUrl": "https://media.licdn.com/dms/image/v2/D5603AQEdCPw1IHwDZA/profile-displayphoto-shrink_800_800/B56ZRHCXUUH0Ao-/0/1736358591030?e=1757548800&v=beta&t=SFXduak0kxF5RACXWSfl2UDyXER0V0iTsQ2QA8daxC8",
-      "linkedin": "https://www.linkedin.com/in/bgirigcloud/",
-      "twitter": "https://x.com/bgiri_gcloud"
-    },
-    {
-      "name": "Anand Mehta",
-      "title": "Senior FinOps Specialist",
-      "company": "Nasdaq",
-      "bio": "Cloud Intelligence Dashboard",
-      "imageUrl": "https://media.licdn.com/dms/image/v2/D4D03AQEl1j-wUU_Ikg/profile-displayphoto-shrink_800_800/B4DZSWQC04GkAc-/0/1737687586835?e=1757548800&v=beta&t=G6UMrgZ0boHPKdvaRZdMpXc_p9RlzlEaWMLdg3NHkjo",
-      "linkedin": "https://www.linkedin.com/in/anandmehtafinops/",
+      "name": "Aditya Shah",
+      "title": "GDG Organizer & Lead",
+      "company": "WPMUDEV",
+      "bio": "Passionate about building inclusive tech communities and empowering developers with cloud technologies.",
+      "imageUrl": "https://2.gravatar.com/avatar/781518e3519e07fbdd10503b45b6d203f3fd92de8c9fffd58a4e099069cb3d79?size=512&d=initials",
+      "linkedin": "https://www.linkedin.com/in/ethicaladitya/",
       "twitter": "#"
     },
     {
-      "name": "Ashish Kolarkar",
-      "title": "CEO",
-      "company": "Datatrack",
-      "bio": "NotebookLM to Conquer Complex Topics",
-      "imageUrl": "https://media.licdn.com/dms/image/v2/D4D03AQHzzLJevwA8hQ/profile-displayphoto-shrink_800_800/B4DZT0veZcHYAc-/0/1739272874303?e=1757548800&v=beta&t=3Br52t7QYHyWifJZb-tmKi4wDQakaeLKqdztN1VhUBo",
-      "linkedin": "https://www.linkedin.com/in/ashishkolarkar/",
-      "twitter": "https://x.com/AshishKola99658"
+      "name": "Mayur Rathi",
+      "title": "Co-Organizer",
+      "company": "Capgemini",
+      "bio": "Experienced software engineer with a passion for cloud architecture and developer community engagement.",
+      "imageUrl": "https://pbs.twimg.com/profile_images/1378894474718351362/vuLAZU4a_400x400.jpg",
+      "linkedin": "https://www.linkedin.com/in/mayurrathi26/",
+      "twitter": "#"
     },
     {
-      "name": "Kripesh Adwani",
-      "title": "CEO",
-      "company": "UpSkillAI",
-      "bio": "Mastering Google Gemini: Your All-in-One Career Co-Pilot",
-      "imageUrl": "https://kripesh.b-cdn.net/wp-content/uploads/2023/04/kripesh-adwani-stage.webp",
-      "linkedin": "https://www.linkedin.com/in/kripeshadwani/",
-      "twitter": "https://x.com/kripeshadwani"
-    },
-    {
-      "name": "Sumit Kumar",
-      "title": "Cloud Solution Architect",
-      "company": "66degrees",
-      "bio": "Protecting AI Agentic Application with Google Model Armor",
-      "imageUrl": "https://media.licdn.com/dms/image/v2/C4E03AQHapqML7Atgww/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1640710112920?e=1755734400&v=beta&t=-_E5Wr3CGXQFi5k3yIeYu6G_VbPjD_1MepLjM8ghQWg",
-      "linkedin": "linkedin.com/in/sumit-kumar-ab2059132",
-      "twitter": "https://x.com/sumit75817441"
-    },
-    {
-      "name": "Parth Arora",
-      "title": "Senior Software Engineer",
-      "company": "IBM india",
-      "bio": "Kubernetes for Beginners: Your First Step into Cloud-Native",
-      "imageUrl": "https://media.licdn.com/dms/image/v2/C4D03AQFCLl1RZ0fNUw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1596654625055?e=1755734400&v=beta&t=LX70QKPGO5IejzZAihbc32WOx7u7yjVbaPWgZYFDrkI",
-      "linkedin": "https://www.linkedin.com/in/parth-arora-1449ab14a/",
-      "twitter": "https://x.com/ParthAr56924392"
-    },
-    {
-      "name": "Geeta Kakrani",
-      "title": "CEO, Founder",
-      "company": "Kanishka IT",
-      "bio": "From Pretrained to Powerful: Fine-Tune Gemma on GCP Vertex AI",
-      "imageUrl": "https://media.licdn.com/dms/image/v2/D4D03AQEx1d7zgV-iFw/profile-displayphoto-shrink_800_800/B4DZaP0DHJG8Ac-/0/1746169508796?e=1755734400&v=beta&t=moC9JN7t53wS8zLPDFoACMs42EWCMSArHsV8yDVxaJ0",
-      "linkedin": "https://www.linkedin.com/in/geetakakrani/",
-      "twitter": "https://x.com/kakranig"
-    },
-    {
-      "name": "Jyoti Mishra",
-      "title": "SDE-4",
-      "company": "Evertz Microsystems",
-      "bio": "No server, No stress: Build smart cloud workflows the low code way",
-      "imageUrl": "https://media.licdn.com/dms/image/v2/D4D03AQG7n008b-pnrw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1732779040312?e=1755734400&v=beta&t=OCUXspmueeFOwJzeKlZh3JXtRWqTGtmhgoRm_BDvhZA",
-      "linkedin": "https://in.linkedin.com/in/jyotim29",
-      "twitter": "https://www.x.com/jyoti_mi"
-    },
-    {
-      "name": "Saurabh Mishra",
-      "title": "DevOps Lead",
-      "company": "TSYS",
-      "bio": "Building Next-Gen Intelligent Self-Service on Google Cloud",
-      "imageUrl": "https://media.licdn.com/dms/image/v2/D5603AQFOtrDe3KEUVA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1732168193011?e=1757548800&v=beta&t=BxU5-ksm-vXCpmVFiqSYe5aGritxiEFLXGZS_rrWchY",
-      "linkedin": "https://www.linkedin.com/in/connectsaurabhmishra/",
+      "name": "Shivam Mishra",
+      "title": "Volunteer Lead",
+      "company": "Sansys Informatics",
+      "bio": "Passionate volunteer coordinator ensuring smooth event operations and community engagement.",
+      "imageUrl": "https://media.licdn.com/dms/image/v2/D5603AQFhaTLZtcrk7A/profile-displayphoto-scale_400_400/B56Zed0qo.GQAo-/0/1750699521584?e=1758153600&v=beta&t=pPym-5m5LsXLJR7LlcgpXZXgyAdlhhZfbT7ceDB_OGI",
+      "linkedin": "https://www.linkedin.com/in/shivammishra-styx/",
       "twitter": "#"
     }
   ]
@@ -152,8 +95,8 @@ const websiteData = {
     "title": "Your Questions, Answered",
     "items": [
       {
-        "question": "What is Google Cloud Community Day?",
-        "answer": "Google Cloud Community Days are community-led events that feature interactive sessions, workshops, and expert-led discussions aimed at empowering participants to harness the full potential of Google Cloud services and solutions. It's a great opportunity for networking with like-minded professionals."
+        "question": "What is ?",
+        "answer": "Devfest Bhopal are community-led events that feature interactive sessions, workshops, and expert-led discussions aimed at empowering participants to harness the full potential of Google Cloud services and solutions. It's a great opportunity for networking with like-minded professionals."
       },
       {
         "question": "Who can attend?",
@@ -161,7 +104,7 @@ const websiteData = {
       },
       {
         "question": "Is there a cost to attend the event?",
-        "answer": "Most Google Cloud Community Days are free to attend. Please check the tickets page for specific details about this event, as some special workshops may have a nominal fee."
+        "answer": "Most Devfest Bhopal are free to attend. Please check the tickets page for specific details about this event, as some special workshops may have a nominal fee."
       }
     ]
   },
@@ -220,49 +163,15 @@ const websiteData = {
     ],
     "coreTeam": [
       {
-        "name": "Shashank Jain",
-        "role": "Social Media",
-        "company": "Student",
-        "imageUrl": "https://media.licdn.com/dms/image/v2/D4D03AQHtmWm-DlewQw/profile-displayphoto-shrink_400_400/B4DZWaOjehHYAk-/0/1742049272157?e=1758153600&v=beta&t=EMXAfynokgR1n6INVPiqPT9P59MZ9WW4DHMr2mTsBZo",
-        "linkedinUrl": "https://www.linkedin.com/in/shashank-jain-ba392022b/"
-      },
-      {
         "name": "Shivam Mishra",
         "role": "Volunteer Lead",
         "company": "Sansys Informatics",
         "imageUrl": "https://media.licdn.com/dms/image/v2/D5603AQFhaTLZtcrk7A/profile-displayphoto-scale_400_400/B56Zed0qo.GQAo-/0/1750699521584?e=1758153600&v=beta&t=pPym-5m5LsXLJR7LlcgpXZXgyAdlhhZfbT7ceDB_OGI",
         "linkedinUrl": "https://www.linkedin.com/in/shivammishra-styx/"
-      },
-      {
-        "name": "Akshita Gupta",
-        "role": "Social Media",
-        "company": "Student",
-        "imageUrl": "https://media.licdn.com/dms/image/v2/D4D03AQHSIEeqkzOxoA/profile-displayphoto-shrink_400_400/B4DZYjDRYoHsAg-/0/1744344783991?e=1758153600&v=beta&t=4Fa1JjpU3gX5rmtFn6ogo1kcVaCnnaqHN9asKdcHw5g",
-        "linkedinUrl": "https://www.linkedin.com/in/gupta-akshitaa/"
-      },
-      {
-        "name": "Parv Baldua",
-        "role": "Graphics",
-        "company": "Student",
-        "imageUrl": "https://2.gravatar.com/avatar/dbc2c1ae49de0231ff9d55171d353abe883d9a344101bd0ac30f3bea9dffef8e?size=512&d=initials",
-        "linkedinUrl": "https://www.linkedin.com/in/parvbaldua/"
-      },
-      {
-        "name": "Deepali Pathak",
-        "role": "Content",
-        "company": "Student",
-        "imageUrl": "https://media.licdn.com/dms/image/v2/D4D03AQFOMmgcOF-QCw/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1689875962089?e=1758153600&v=beta&t=jRIa5Wt2ZT-cakcEGHCjM80ty6qbp_3RQpJStpwoQlQ",
-        "linkedinUrl": "https://www.linkedin.com/in/deepali-pathak-47479421b/"
-      },
-      {
-        "name": "Vansh Rathi",
-        "role": "Promotion",
-        "company": "Student",
-        "imageUrl": "https://media.licdn.com/dms/image/v2/D4D03AQGeouOQl3RynQ/profile-displayphoto-shrink_400_400/B4DZU82Fh_GkAk-/0/1740482567625?e=1758153600&v=beta&t=WaMc955WT2jy8JW4mzP-v7jBbeAdHfTgnfr4ttmPrTA",
-        "linkedinUrl": "https://www.linkedin.com/in/vanshrathii/"
       }
     ]
   },
+  /*
   "schedule": {
     "title": "Conference Schedule",
     "subtitle": "Sunday, August 3rd, 2025 at Kushabhau Thakre International Convention Centre (Minto Hall), Bhopal",
@@ -409,6 +318,7 @@ const websiteData = {
       }
     ]
   },
+  */
   "communityPartners": {
     "title": "Partners",
     "subtitle": "Meet our amazing partners who make Devfest Bhopal 2025 2025 possible through their collaboration and support",
