@@ -1,17 +1,17 @@
 // Website Data Configuration
-// This file contains all the configurable data for the Google Cloud Community Day Bhopal website
+// This file contains all the configurable data for the Devfest Bhopal 2025 website
 // Edit this file to update event details, speakers, content, etc.
 
 const websiteData = {
   "event": {
-    "name": "Cloud Community Day Bhopal 2025",
-    "date": "August 3, 2025",
-    "venue": "Minto Hall, Bhopal",
-    "venueAddress": "Shymala Hills, Jahangirabad, Bhopal, Madhya Pradesh 462002",
-    "venueMapUrl": "https://maps.app.goo.gl/gDC7pdqrb2o2hwdc7"
+    "name": "Devfest Bhopal 2025",
+    "date": "September 21, 2025",
+    "venue": "TBD",
+    "venueAddress": "TBD",
+    "venueMapUrl": "TBD"
   },
   "site": {
-    "title": "Google Cloud Community Day Bhopal",
+    "title": "Devfest Bhopal 2025",
     "logo": {
       "light": "logo.png",
       "text": "GDG Cloud Bhopal"
@@ -411,7 +411,7 @@ const websiteData = {
   },
   "communityPartners": {
     "title": "Partners",
-    "subtitle": "Meet our amazing partners who make Google Cloud Community Day Bhopal 2025 possible through their collaboration and support",
+    "subtitle": "Meet our amazing partners who make Devfest Bhopal 2025 2025 possible through their collaboration and support",
     "categories": [
       {
         "name": "Community Partners",
