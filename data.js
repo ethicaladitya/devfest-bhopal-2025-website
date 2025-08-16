@@ -1,33 +1,33 @@
 // Website Data Configuration
-// This file contains all the configurable data for the Devfest Bhopal 2025 website
+// This file contains all the configurable data for the DevFest Bhopal 2025 website
 // Edit this file to update event details, speakers, content, etc.
 
 const websiteData = {
   "event": {
-    "name": "Devfest Bhopal 2025",
-    "date": "September 21, 2025",
-    "venue": "TBD",
+    "name": "DevFest Bhopal 2025",
+    "date": "August 3, 2025",
+    "venue": "Bhopal, India",
     "venueAddress": "TBD",
     "venueMapUrl": "TBD"
   },
   "site": {
-    "title": "Devfest Bhopal 2025",
+    "title": "DevFest Bhopal 2025",
     "logo": {
       "light": "logo.png",
-      "text": "GDG Cloud Bhopal"
+      "text": "GDG Bhopal"
     },
     "mainCta": {
-      "text": "Tickets",
+      "text": "Get Tickets",
       "url": "tickets.html"
     },
-    "chapterPageUrl": "https://gdg.community.dev/gdg-cloud-bhopal/"
+    "chapterPageUrl": "https://gdg.community.dev/gdg-bhopal/"
   },
   "navigation": [
     { "text": "Home", "url": "index.html" },
     { 
       "text": "About", 
       "submenu": [
-        { "text": "About Event", "url": "index.html#about" },
+        { "text": "About DevFest", "url": "index.html#about" },
         { "text": "Speakers", "url": "index.html#speakers" },
         { "text": "Past Events", "url": "index.html#past-events" },
         { "text": "FAQ", "url": "index.html#faq" }
@@ -38,13 +38,13 @@ const websiteData = {
     { "text": "Partners", "url": "partners.html" },
   ],
   "hero": {
-    "title": "Devfest Bhopal 2025",
-    "subtitle": "Join India's top cloud engineers, developers, and architects for a full day of learning, networking, and innovation with Google Cloud technologies."
+    "title": "DevFest Bhopal 2025",
+    "subtitle": "Join Central India's premier developer festival! Connect with hundreds of developers, designers, and tech enthusiasts for a day of learning, building, and celebrating innovation."
   },
   "about": {
-    "title": "Why Attend?",
-    "paragraph1": "Experience a day of innovation, learning, and networking with the Google Cloud community. Connect with passionate developers, industry leaders, and cloud experts through inspiring talks and hands-on workshops.",
-    "paragraph2": "No matter your experience level, you'll find practical sessions, real-world insights, and a welcoming community to help you grow. Join us to build new skills, make valuable connections, and be part of something bigger."
+    "title": "Why DevFest?",
+    "paragraph1": "DevFest is the world's largest community-driven tech conference, bringing together 800K+ developers across 565+ events in 85+ countries. Experience cutting-edge technologies, inspiring talks, and hands-on workshops led by industry experts and Google Developer Experts.",
+    "paragraph2": "Whether you're building your first app or architecting enterprise solutions, DevFest offers something transformative for every developer. Join us to explore emerging technologies like AI/ML, discover best practices in modern development, and connect with Central India's most vibrant tech community."
   },
   "speakers": {
   "title": "Meet The Organizers",
@@ -92,19 +92,50 @@ const websiteData = {
     ]
   },
   "faq": {
-    "title": "Your Questions, Answered",
+    "title": "Frequently Asked Questions",
     "items": [
       {
-        "question": "What is ?",
-        "answer": "Devfest Bhopal are community-led events that feature interactive sessions, workshops, and expert-led discussions aimed at empowering participants to harness the full potential of Google Cloud services and solutions. It's a great opportunity for networking with like-minded professionals."
+        "question": "What is DevFest?",
+        "answer": "DevFest is the world's largest community-driven tech conference organized by Google Developer Groups (GDGs). It features interactive sessions, workshops, and expert-led discussions on cutting-edge technologies like AI/ML, Android, Web, Cloud, and more."
       },
       {
-        "question": "Who can attend?",
-        "answer": "Anyone interested in cloud technology, from beginner developers to experienced professionals, is welcome. The event is tailored to provide value for all levels of expertise."
+        "question": "Who can attend DevFest Bhopal?",
+        "answer": "Anyone passionate about technology! Whether you're a student, professional developer, designer, startup founder, or tech enthusiast, DevFest welcomes all skill levels. Our content is designed to provide value for beginners to experts."
       },
       {
-        "question": "Is there a cost to attend the event?",
-        "answer": "Most Devfest Bhopal are free to attend. Please check the tickets page for specific details about this event, as some special workshops may have a nominal fee."
+        "question": "Is there a cost to attend?",
+        "answer": "DevFest Bhopal has minimal registration fees to ensure committed attendance and help us deliver a world-class experience. Check the tickets page for current pricing and early-bird offers."
+      },
+      {
+        "question": "What can I expect at DevFest Bhopal?",
+        "answer": "Expect technical sessions by Google Developer Experts, hands-on workshops, networking opportunities, swag, food, and a chance to connect with Central India's most innovative developers and tech leaders."
+      },
+      {
+        "question": "Will there be hands-on workshops?",
+        "answer": "Yes! DevFest features interactive workshops covering various Google technologies. Bring your laptop and get ready to build, learn, and experiment with cutting-edge tools and frameworks."
+      }
+    ]
+  },
+  "testimonials": {
+    "title": "What Developers Say About DevFest",
+    "items": [
+      {
+        "quote": "DevFest is a fantastic opportunity to meet amazing developers and discover the latest in Google technologies. The energy and learning opportunities are unmatched.",
+        "author": "Barry Pollard",
+        "title": "Web Performance Developer Advocate, Google",
+        "avatar": "https://developers.google.com/static/community/devfest/images/pollard.png"
+      },
+      {
+        "quote": "DevFest showcases awesome new features for building solutions on Google platforms. It's the perfect place to learn about cutting-edge developer tools.",
+        "author": "Chanel Greco", 
+        "title": "Google Workspace Developer Advocate",
+        "avatar": "https://developers.google.com/static/community/devfest/images/greco.png"
+      },
+      {
+        "quote": "An amazing way to learn about the best developer tools Google offers and connect with fellow professionals. The community spirit is incredible.",
+        "author": "Prakhar Srivastav",
+        "title": "Software Engineer",
+        "avatar": "https://developers.google.com/static/community/devfest/images/srivastav.png"
       }
     ]
   },

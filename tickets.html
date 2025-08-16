@@ -18,15 +18,19 @@
     <link href="https://fonts.googleapis.com/css2?family=Google+Sans:wght@400;500;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
     <style>
         :root {
-            --ccd-blue: #4285F4;
-            --ccd-text-primary: #202124;
-            --ccd-bg-light: #FFFFFF;
-            --ccd-bg-alt: #F8F9FA;
+            --devfest-blue: #4285F4;
+            --devfest-red: #EA4335;
+            --devfest-yellow: #FBBC04;
+            --devfest-green: #34A853;
+            --devfest-text-primary: #202124;
+            --devfest-bg-light: #FFFFFF;
+            --devfest-bg-alt: #F8F9FA;
+            --devfest-gradient-primary: linear-gradient(135deg, #4285F4 0%, #34A853 25%, #FBBC04 50%, #EA4335 100%);
         }
         body {
             font-family: 'Google Sans', 'Roboto', sans-serif;
-            background-color: var(--ccd-bg-alt);
-            color: var(--ccd-text-primary);
+            background-color: var(--devfest-bg-alt);
+            color: var(--devfest-text-primary);
         }
         .headline-1 { font-size: 3.5rem; line-height: 1.2; font-weight: 700; }
         .title { font-size: 1.25rem; line-height: 1.75rem; font-weight: 500; }
@@ -64,7 +68,7 @@
             height: 2px;
             bottom: -2px;
             left: 50%;
-            background-color: var(--ccd-blue);
+            background: var(--devfest-gradient-primary);
             transition: all 0.3s ease;
             transform: translateX(-50%);
         }
@@ -318,8 +322,8 @@
 
     <!-- Main Content -->
     <main class="bg-white">
-        <!-- Hero Section with Large Background -->
-        <section class="relative bg-gradient-to-br from-blue-600 via-blue-700 to-blue-800 text-white overflow-hidden">
+        <!-- Hero Section with DevFest Background -->
+        <section class="relative bg-gradient-to-br from-blue-600 via-purple-600 to-red-600 text-white overflow-hidden">
             <!-- Floating Particles -->
             <div class="particles">
                 <div class="particle"></div>
@@ -330,47 +334,51 @@
                 <div class="particle"></div>
             </div>
             
-            <!-- Tickets Page Venue Background Image (blurred, subtle) -->
-            <div class="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-40" style="background-image: url('https://lh3.googleusercontent.com/U5aK1Gk7rN2ZKU6zzBs1679T4sY5ST9ZhQkjx6PfYUMDy7Mp3F60xPQTSd0vGPEnpOoPRW-I2bCPrlt0luSJT3nZPw=w1082-h971-n-l80-e31'); filter: blur(2.5px) contrast(1.1) saturate(1.1);"></div>
+            <!-- DevFest Gradient Background -->
+            <div class="absolute inset-0" style="background: linear-gradient(135deg, #4285F4 0%, #9C27B0 50%, #EA4335 100%);"></div>
             
-            <!-- Dark/Gold Gradient Overlay for Readability and Branding -->
-            <div class="absolute inset-0" style="background: linear-gradient(120deg, rgba(20,24,31,0.96) 80%, rgba(251,188,4,0.22) 100%); mix-blend-mode: multiply;"></div>
+            <!-- DevFest Multi-color Gradient Overlay -->
+            <div class="absolute inset-0" style="background: linear-gradient(120deg, rgba(66,133,244,0.9) 0%, rgba(156,39,176,0.8) 35%, rgba(251,188,4,0.7) 65%, rgba(234,67,53,0.9) 100%);"></div>
             
             <!-- Enhanced Background Pattern -->
             <div class="absolute inset-0 opacity-10">
                 <svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
                     <defs>
-                        <pattern id="grid" width="60" height="60" patternUnits="userSpaceOnUse">
+                        <pattern id="devfest-grid" width="60" height="60" patternUnits="userSpaceOnUse">
                             <path d="M 60 0 L 0 0 0 60" fill="none" stroke="white" stroke-width="1"/>
+                            <circle cx="30" cy="30" r="2" fill="white" opacity="0.3"/>
                         </pattern>
                     </defs>
-                    <rect width="100%" height="100%" fill="url(#grid)" />
+                    <rect width="100%" height="100%" fill="url(#devfest-grid)" />
                 </svg>
             </div>
             
             <!-- Hero Content -->
             <div class="relative z-10 container mx-auto px-6 py-20 md:py-32">
                 <div class="text-center mb-16">
+                    <div class="inline-block bg-gradient-to-r from-blue-400 to-purple-400 text-white py-2 px-6 rounded-full text-sm font-bold mb-4 pulse-animation">
+                        🎉 DevFest Bhopal 2025
+                    </div>
                     <h1 class="hero-title text-5xl md:text-7xl font-bold mb-6 leading-tight">
                         Tickets are <span class="text-yellow-300 pulse-animation">Live!</span>
                     </h1>
                     <p class="hero-subtitle text-xl md:text-2xl mb-8 max-w-3xl mx-auto text-blue-100">
-                        Central India's top event for cloud professionals and enthusiasts. Secure your ticket now!
+                        Central India's premier developer festival! Join hundreds of developers for a day of learning and innovation.
                     </p>
                     <p class="text-lg text-blue-100 mb-8">
-                        The ticket price is a minimal, subsidized amount to ensure your attendance and help us deliver the top-notch experience.
+                        Join the global DevFest community and be part of the world's largest community-driven tech conference.
                     </p>
                     <div class="hero-info inline-flex items-center bg-white/10 backdrop-blur-lg rounded-full px-6 py-3 text-lg bounce-animation">
-                        📍 <span class="ml-2">August 3, 2025 · Minto Hall (Kushabhau Thakre Hall), Bhopal</span>
+                        📍 <span class="ml-2">August 3, 2025 · Bhopal, India</span>
                     </div>
                 </div>
                 
                 <!-- Tickets Card - Centered and Prominent -->
                 <div class="hero-card max-w-2xl mx-auto">
-                    <div class="bg-white rounded-3xl shadow-2xl p-8 md:p-12 border border-blue-200 float-animation">
+                    <div class="bg-white rounded-3xl shadow-2xl p-8 md:p-12 border border-transparent float-animation" style="border-image: linear-gradient(135deg, #4285F4, #34A853, #FBBC04, #EA4335) 1;">
                         <div class="text-center mb-8">
-                            <h2 class="text-3xl font-bold text-blue-600 mb-4">Get your Ticket</h2>
-                            <p class="text-gray-600 text-lg">Get your tickets below and join us for an amazing event!</p>
+                            <h2 class="text-3xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent mb-4">Get your DevFest Ticket</h2>
+                            <p class="text-gray-600 text-lg">Get your tickets below and join us for an amazing developer experience!</p>
                         </div>
                         
                         <!-- Benefits List -->
