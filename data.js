@@ -206,7 +206,7 @@ const websiteData = {
       "company": "Sansys Informatics",
       "bio": "Passionate volunteer coordinator ensuring smooth event operations and community engagement.",
       "imageUrl": "https://media.licdn.com/dms/image/v2/D5603AQFfBk6QMe6szQ/profile-displayphoto-scale_400_400/B56Zh2L8.XHQAs-/0/1754329504233?e=1758153600&v=beta&t=NqNB9TtOVjDzDlvB90RPLbSgPrDFiB6cJXcxh34EcjI",
-      "linkedin": "https://www.linkedin.com/in/shivammishra-styx/",
+      "profileUrl": "https://www.linkedin.com/in/shivammishra-styx/",
       "skills": ["React", "WordPress", "Team Leadership"]
       },
       {
@@ -215,7 +215,7 @@ const websiteData = {
         "company": "Vitraya Technologies",
         "bio": "Loves to solve problems by making products and solutions.",
         "imageUrl": "Atharva.jpeg",
-        "linkedin": "https://www.linkedin.com/in/atharvakulkarni/",
+        "profileUrl": "https://www.linkedin.com/in/atharvakulkarni/",
         "skills": ["UX & Software Design", "Startups & Entrepreneurship","No-Code Development"]
       }
     ],
