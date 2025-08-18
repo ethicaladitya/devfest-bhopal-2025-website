@@ -17,7 +17,7 @@ const websiteData = {
       "text": "GDG Bhopal"
     },
     "mainCta": {
-      "text": "Get Tickets",
+      "text": "Interest Form",
       "url": "tickets.html"
     },
     "chapterPageUrl": "https://gdg.community.dev/gdg-bhopal/"
@@ -28,13 +28,13 @@ const websiteData = {
       "text": "About", 
       "submenu": [
         { "text": "About DevFest", "url": "index.html#about" },
-        { "text": "Speakers", "url": "index.html#speakers" },
+        { "text": "Organizers", "url": "index.html#speakers" },
         { "text": "Past Events", "url": "index.html#past-events" },
         { "text": "FAQ", "url": "index.html#faq" }
       ]
     },
     { "text": "Team", "url": "team.html" },
-    { "text": "Tickets", "url": "tickets.html" },
+    { "text": "Interest Form", "url": "tickets.html" },
     { "text": "Partners", "url": "partners.html" },
   ],
   "hero": {
@@ -69,11 +69,20 @@ const websiteData = {
     },
     {
       "name": "Shivam Mishra",
-      "title": "Volunteer Lead",
+      "title": "GDG Organizer",
       "company": "Sansys Informatics",
       "bio": "Passionate volunteer coordinator ensuring smooth event operations and community engagement.",
-      "imageUrl": "https://media.licdn.com/dms/image/v2/D5603AQFhaTLZtcrk7A/profile-displayphoto-scale_400_400/B56Zed0qo.GQAo-/0/1750699521584?e=1758153600&v=beta&t=pPym-5m5LsXLJR7LlcgpXZXgyAdlhhZfbT7ceDB_OGI",
+      "imageUrl": "https://media.licdn.com/dms/image/v2/D5603AQFfBk6QMe6szQ/profile-displayphoto-scale_400_400/B56Zh2L8.XHQAs-/0/1754329504233?e=1758153600&v=beta&t=NqNB9TtOVjDzDlvB90RPLbSgPrDFiB6cJXcxh34EcjI",
       "linkedin": "https://www.linkedin.com/in/shivammishra-styx/",
+      "twitter": "#"
+    },
+    {
+      "name": "Atharva Kulkarni",
+      "title": "GDG Organizer",
+      "company": "Vitraya Technologies",
+      "bio": "Loves to solve problems by making products and solutions.",
+      "imageUrl": "Atharva.jpeg",
+      "linkedin": "https://www.linkedin.com/in/atharvakulkarni/",
       "twitter": "#"
     }
   ]
@@ -190,16 +199,28 @@ const websiteData = {
         "profileUrl": "https://www.linkedin.com/in/mayurrathi26/",
         "imageUrl": "https://pbs.twimg.com/profile_images/1378894474718351362/vuLAZU4a_400x400.jpg",
         "skills": ["Cloud Architecture", "DevOps", "Team Leadership"]
+      },
+      {
+      "name": "Shivam Mishra",
+      "role": "GDG Organizer",
+      "company": "Sansys Informatics",
+      "bio": "Passionate volunteer coordinator ensuring smooth event operations and community engagement.",
+      "imageUrl": "https://media.licdn.com/dms/image/v2/D5603AQFfBk6QMe6szQ/profile-displayphoto-scale_400_400/B56Zh2L8.XHQAs-/0/1754329504233?e=1758153600&v=beta&t=NqNB9TtOVjDzDlvB90RPLbSgPrDFiB6cJXcxh34EcjI",
+      "linkedin": "https://www.linkedin.com/in/shivammishra-styx/",
+      "skills": ["React", "WordPress", "Team Leadership"]
+      },
+      {
+        "name": "Atharva Kulkarni",
+        "role": "GDG Organizer",
+        "company": "Vitraya Technologies",
+        "bio": "Loves to solve problems by making products and solutions.",
+        "imageUrl": "Atharva.jpeg",
+        "linkedin": "https://www.linkedin.com/in/atharvakulkarni/",
+        "skills": ["UX & Software Design", "Startups & Entrepreneurship","No-Code Development"]
       }
     ],
     "coreTeam": [
-      {
-        "name": "Shivam Mishra",
-        "role": "Volunteer Lead",
-        "company": "Sansys Informatics",
-        "imageUrl": "https://media.licdn.com/dms/image/v2/D5603AQFhaTLZtcrk7A/profile-displayphoto-scale_400_400/B56Zed0qo.GQAo-/0/1750699521584?e=1758153600&v=beta&t=pPym-5m5LsXLJR7LlcgpXZXgyAdlhhZfbT7ceDB_OGI",
-        "linkedinUrl": "https://www.linkedin.com/in/shivammishra-styx/"
-      }
+      
     ]
   },
   /*
