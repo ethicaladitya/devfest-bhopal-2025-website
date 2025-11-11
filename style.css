@@ -1,23 +1,6 @@
 /* DevFest Bhopal 2025 - Main Stylesheet */
 /* This file contains all the shared styles across the website */
 
-<<<<<<< HEAD
-/* CSS Custom Properties - DevFest Color Scheme */
-:root {
-    --devfest-blue: #4285F4;
-    --devfest-red: #EA4335;
-    --devfest-yellow: #FBBC04;
-    --devfest-green: #34A853;
-    --devfest-orange: #FF6D01;
-    --devfest-purple: #9C27B0;
-    --devfest-text-primary: #202124;
-    --devfest-text-secondary: #5F6368;
-    --devfest-bg-light: #FFFFFF;
-    --devfest-bg-alt: #F8F9FA;
-    --devfest-border-color: #E8EAED;
-    --devfest-gradient-primary: linear-gradient(135deg, #4285F4 0%, #34A853 25%, #FBBC04 50%, #EA4335 100%);
-    --devfest-gradient-hero: linear-gradient(135deg, #4285F4 0%, #9C27B0 50%, #EA4335 100%);
-=======
 /* CSS Custom Properties - Light Theme (Default) */
 :root {
     /* Primary Color - Blue */
@@ -161,7 +144,6 @@ body {
 
 * {
     transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
->>>>>>> friend/main
 }
 
 /* Typography & Base Styles */
@@ -186,20 +168,23 @@ body {
     font-family: 'Google Sans', 'Roboto', sans-serif; 
 }
 
-/* Primary Button Styles */
+/* Primary Button Styles - Glassmorphism */
 .btn-primary {
-    background: var(--devfest-gradient-primary);
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
     color: white;
     transition: all 0.3s ease;
-    border-radius: 12px;
-    box-shadow: 0 4px 15px rgba(66, 133, 244, 0.3);
+    border-radius: 16px;
+    box-shadow: 0 8px 32px rgba(66, 133, 244, 0.2), 
+                inset 0 1px 0 rgba(255, 255, 255, 0.3);
     position: relative;
     overflow: hidden;
-    border: none;
     cursor: pointer;
     text-transform: uppercase;
     letter-spacing: 0.5px;
-    font-weight: 500;
+    font-weight: 600;
 }
 
 .btn-primary::before {
@@ -209,7 +194,7 @@ body {
     left: -100%;
     width: 100%;
     height: 100%;
-    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.3), transparent);
+    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.4), transparent);
     transition: left 0.5s ease;
 }
 
@@ -218,39 +203,30 @@ body {
 }
 
 .btn-primary:hover {
-<<<<<<< HEAD
-    box-shadow: 0 8px 25px rgba(66, 133, 244, 0.4);
+    background: rgba(255, 255, 255, 0.25);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    box-shadow: 0 12px 40px rgba(66, 133, 244, 0.3), 
+                inset 0 1px 0 rgba(255, 255, 255, 0.4);
     transform: translateY(-3px);
-    background: linear-gradient(135deg, #5a9cf8 0%, #46b566 25%, #fcc34a 50%, #f56565 100%);
-=======
-    box-shadow: 0 8px 25px var(--shadow-primary);
-    transform: translateY(-3px);
-    background: linear-gradient(135deg, #669DF6 0%, #4285F4 100%);
->>>>>>> friend/main
 }
 
-/* Secondary Button Styles */
+/* Secondary Button Styles - Glassmorphism */
 .btn-secondary {
-<<<<<<< HEAD
-    background: linear-gradient(135deg, #34A853 0%, #46b566 100%);
+    background: rgba(52, 168, 83, 0.15);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(52, 168, 83, 0.3);
     color: white;
     transition: all 0.3s ease;
-    border-radius: 12px;
-    box-shadow: 0 4px 15px rgba(52, 168, 83, 0.3);
-=======
-    background: var(--primary-dark);
-    color: white;
-    transition: all 0.3s ease;
-    border-radius: 12px;
-    box-shadow: 0 4px 15px var(--shadow-primary);
->>>>>>> friend/main
+    border-radius: 16px;
+    box-shadow: 0 8px 32px rgba(52, 168, 83, 0.2), 
+                inset 0 1px 0 rgba(255, 255, 255, 0.3);
     position: relative;
     overflow: hidden;
-    border: none;
     cursor: pointer;
     text-transform: uppercase;
     letter-spacing: 0.5px;
-    font-weight: 500;
+    font-weight: 600;
 }
 
 .btn-secondary::before {
@@ -260,7 +236,7 @@ body {
     left: -100%;
     width: 100%;
     height: 100%;
-    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.3), transparent);
+    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.4), transparent);
     transition: left 0.5s ease;
 }
 
@@ -269,32 +245,30 @@ body {
 }
 
 .btn-secondary:hover {
-    box-shadow: 0 8px 25px rgba(52, 168, 83, 0.4);
+    background: rgba(52, 168, 83, 0.25);
+    border: 1px solid rgba(52, 168, 83, 0.5);
+    box-shadow: 0 12px 40px rgba(52, 168, 83, 0.3), 
+                inset 0 1px 0 rgba(255, 255, 255, 0.4);
     transform: translateY(-3px);
 }
 
-/* Accent Button Styles */
+/* Accent Button Styles - Glassmorphism */
 .btn-accent {
-<<<<<<< HEAD
-    background: linear-gradient(135deg, #EA4335 0%, #FBBC04 100%);
+    background: rgba(251, 188, 4, 0.15);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(251, 188, 4, 0.3);
     color: white;
     transition: all 0.3s ease;
-    border-radius: 12px;
-    box-shadow: 0 4px 15px rgba(234, 67, 53, 0.3);
-=======
-    background: var(--primary-darker);
-    color: white;
-    transition: all 0.3s ease;
-    border-radius: 12px;
-    box-shadow: 0 4px 15px var(--shadow-primary);
->>>>>>> friend/main
+    border-radius: 16px;
+    box-shadow: 0 8px 32px rgba(251, 188, 4, 0.2), 
+                inset 0 1px 0 rgba(255, 255, 255, 0.3);
     position: relative;
     overflow: hidden;
-    border: none;
     cursor: pointer;
     text-transform: uppercase;
     letter-spacing: 0.5px;
-    font-weight: 500;
+    font-weight: 600;
 }
 
 .btn-accent::before {
@@ -304,7 +278,7 @@ body {
     left: -100%;
     width: 100%;
     height: 100%;
-    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.3), transparent);
+    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.4), transparent);
     transition: left 0.5s ease;
 }
 
@@ -313,43 +287,56 @@ body {
 }
 
 .btn-accent:hover {
-    box-shadow: 0 8px 25px rgba(234, 67, 53, 0.4);
+    background: rgba(251, 188, 4, 0.25);
+    border: 1px solid rgba(251, 188, 4, 0.5);
+    box-shadow: 0 12px 40px rgba(251, 188, 4, 0.3), 
+                inset 0 1px 0 rgba(255, 255, 255, 0.4);
     transform: translateY(-3px);
 }
 
-/* Outline Button Styles */
+/* Outline Button Styles - Glassmorphism */
 .btn-outline {
-    background: transparent;
-<<<<<<< HEAD
-    color: var(--devfest-blue);
-    border: 2px solid var(--devfest-blue);
-=======
-    color: var(--primary-color);
-    border: 2px solid var(--primary-color);
->>>>>>> friend/main
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    color: white;
+    border: 2px solid rgba(255, 255, 255, 0.3);
     transition: all 0.3s ease;
-    border-radius: 12px;
+    border-radius: 16px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
     position: relative;
     overflow: hidden;
     cursor: pointer;
     text-transform: uppercase;
     letter-spacing: 0.5px;
-    font-weight: 500;
+    font-weight: 600;
 }
 
 .btn-outline:hover {
-<<<<<<< HEAD
-    background: var(--devfest-gradient-primary);
-    color: white;
+    background: rgba(255, 255, 255, 0.2);
+    border: 2px solid rgba(255, 255, 255, 0.5);
     transform: translateY(-2px);
-    box-shadow: 0 6px 20px rgba(66, 133, 244, 0.3);
-=======
-    background: var(--gradient-primary);
-    color: white;
-    transform: translateY(-2px);
-    box-shadow: 0 6px 20px var(--shadow-primary);
->>>>>>> friend/main
-    border: 2px solid transparent;
+    box-shadow: 0 8px 30px rgba(66, 133, 244, 0.3);
+}
+
+/* Navigation Bar Button Override - Solid style for white background */
+header .btn-primary,
+#nav-cta,
+#mobile-nav-cta {
+    background: linear-gradient(135deg, #4285F4 0%, #1967D2 100%) !important;
+    backdrop-filter: none !important;
+    -webkit-backdrop-filter: none !important;
+    border: none !important;
+    color: white !important;
+    box-shadow: 0 4px 15px rgba(66, 133, 244, 0.3) !important;
+}
+
+header .btn-primary:hover,
+#nav-cta:hover,
+#mobile-nav-cta:hover {
+    background: linear-gradient(135deg, #669DF6 0%, #4285F4 100%) !important;
+    box-shadow: 0 6px 20px rgba(66, 133, 244, 0.4) !important;
+    transform: translateY(-2px) !important;
 }
 
 /* Section Styles */
@@ -1185,19 +1172,11 @@ body {
 
 /* CSS Variable fallbacks for better browser compatibility */
 .gradient-text {
-<<<<<<< HEAD
-    background: linear-gradient(135deg, #4285F4 0%, #34A853 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    color: #4285F4; /* Fallback for browsers without support */
-=======
     background: var(--gradient-primary);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
     color: var(--primary-color); /* Fallback for browsers without support */
->>>>>>> friend/main
 }
 
 /* Ensure proper animations work on all devices */
@@ -1242,8 +1221,6 @@ body {
         transition-duration: 0.01ms !important;
     }
 }
-<<<<<<< HEAD
-=======
 
 /* ============================================
    DARK THEME SPECIFIC STYLES
@@ -1564,4 +1541,3 @@ html[data-theme] {
 .hero-overlay-black { display: none; }
 [data-theme="dark"] .hero-overlay-light { display: none; }
 [data-theme="dark"] .hero-overlay-black { display: block; }
->>>>>>> friend/main

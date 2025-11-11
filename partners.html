@@ -45,15 +45,9 @@
             transform: scale(1.2);
         }
         
-<<<<<<< HEAD
-        /* Gradient backgrounds */
-        .gradient-bg {
-            background: linear-gradient(135deg, #4285F4 0%, #34A853 50%, #FBBC04 100%);
-=======
         /* Gradient backgrounds - Simple Blue Theme */
         .gradient-bg {
             background: linear-gradient(135deg, #4285F4 0%, #1967D2 100%);
->>>>>>> friend/main
         }
         
         /* Animation for loading */
@@ -162,11 +156,7 @@
             <div class="grid lg:grid-cols-4 gap-8">
                 <div class="lg:col-span-1">
                     <a href="https://gdg.community.dev/gdg-cloud-bhopal/" target="_blank" class="text-2xl font-bold">
-<<<<<<< HEAD
-                        <span class="text-gray-800">GDG Cloud</span><br><span class="font-light text-gray-500">Bhopal</span>
-=======
                         <span class="text-gray-800">GDG</span><br><span class="font-light text-gray-500">Bhopal</span>
->>>>>>> friend/main
                     </a>
                 </div>
                 <div class="lg:col-span-1">
@@ -208,11 +198,7 @@
                 </div>
             </div>
             <div class="mt-12 border-t border-gray-200 pt-8 text-center">
-<<<<<<< HEAD
-                <p class="text-xs text-gray-500">Made with ❤️ by GDG Cloud Bhopal</p>
-=======
                 <p class="text-xs text-gray-500">Made with ❤️ by GDG Bhopal</p>
->>>>>>> friend/main
             </div>
         </div>
     </footer>
@@ -414,86 +400,8 @@
         });
     </script>
 
-    <!-- CCD Bot Widget -->
-    <div id="ccd-bot-widget" class="fixed bottom-6 right-6 z-[9999]">
-        <!-- Bot Toggle Button -->
-        <button id="bot-toggle" class="bg-blue-600 hover:bg-blue-700 text-white rounded-full p-4 shadow-lg transition-all duration-300 hover:scale-110 focus:outline-none focus:ring-4 focus:ring-blue-300">
-            <svg id="bot-icon" class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 10h.01M12 10h.01M16 10h.01M9 16H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-4l-4 4z"></path>
-            </svg>
-            <svg id="close-icon" class="w-6 h-6 hidden" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
-            </svg>
-        </button>
-        
-        <!-- Bot Frame -->
-        <div id="bot-frame" class="hidden fixed bottom-24 right-6 w-80 h-[600px] lg:w-96 lg:h-[600px] bg-white rounded-lg shadow-xl border border-gray-200">
-            <div class="bg-blue-600 text-white p-3 flex items-center justify-between">
-                <div class="flex items-center space-x-2">
-                    <div class="w-2 h-2 bg-green-400 rounded-full"></div>
-                    <span class="font-medium text-sm">CCD Bot Assistant</span>
-                </div>
-                <button id="minimize-bot" class="text-white hover:text-gray-200 transition-colors">
-                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
-                    </svg>
-                </button>
-            </div>
-            <div class="flex-1 h-full overflow-hidden">
-                <iframe 
-                    src="https://bot.ccd.bhopal.dev/" 
-                    class="w-full h-full border-0 rounded-b-lg"
-                    title="CCD Bot Assistant"
-                    allow="microphone; camera; geolocation"
-                    sandbox="allow-same-origin allow-scripts allow-forms allow-popups allow-top-navigation-by-user-activation allow-pointer-lock"
-                    scrolling="auto"
-                    frameborder="0">
-                </iframe>
-            </div>
-        </div>
-    </div>
-
+    <!-- Dark Mode Toggle -->
     <script>
-    // Bot Widget Functionality
-    document.addEventListener('DOMContentLoaded', function() {
-        const botToggle = document.getElementById('bot-toggle');
-        const botFrame = document.getElementById('bot-frame');
-        const minimizeBot = document.getElementById('minimize-bot');
-        const botIcon = document.getElementById('bot-icon');
-        const closeIcon = document.getElementById('close-icon');
-        let isOpen = false;
-
-        function toggleBot() {
-            isOpen = !isOpen;
-            if (isOpen) {
-                botFrame.classList.remove('hidden');
-                botIcon.classList.add('hidden');
-                closeIcon.classList.remove('hidden');
-                botToggle.classList.add('bg-red-600', 'hover:bg-red-700');
-                botToggle.classList.remove('bg-blue-600', 'hover:bg-blue-700');
-            } else {
-                botFrame.classList.add('hidden');
-                botIcon.classList.remove('hidden');
-                closeIcon.classList.add('hidden');
-                botToggle.classList.remove('bg-red-600', 'hover:bg-red-700');
-                botToggle.classList.add('bg-blue-600', 'hover:bg-blue-700');
-            }
-        }
-
-        botToggle.addEventListener('click', toggleBot);
-        minimizeBot.addEventListener('click', toggleBot);
-
-        // Close bot when clicking outside
-        document.addEventListener('click', function(event) {
-            if (isOpen && !document.getElementById('ccd-bot-widget').contains(event.target)) {
-                toggleBot();
-            }
-        });
-    });
-<<<<<<< HEAD
-=======
-
-    // Dark Mode Toggle
     (function() {
         const currentTheme = localStorage.getItem('theme') || 'light';
         document.documentElement.setAttribute('data-theme', currentTheme);
@@ -507,7 +415,6 @@
             localStorage.setItem('theme', theme);
         });
     })();
->>>>>>> friend/main
     </script>
 </body>
 </html>
