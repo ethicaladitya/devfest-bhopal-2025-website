@@ -45,9 +45,15 @@
             transform: scale(1.2);
         }
         
+<<<<<<< HEAD
         /* Gradient backgrounds */
         .gradient-bg {
             background: linear-gradient(135deg, #4285F4 0%, #34A853 50%, #FBBC04 100%);
+=======
+        /* Gradient backgrounds - Simple Blue Theme */
+        .gradient-bg {
+            background: linear-gradient(135deg, #4285F4 0%, #1967D2 100%);
+>>>>>>> friend/main
         }
         
         /* Animation for loading */
@@ -156,7 +162,11 @@
             <div class="grid lg:grid-cols-4 gap-8">
                 <div class="lg:col-span-1">
                     <a href="https://gdg.community.dev/gdg-cloud-bhopal/" target="_blank" class="text-2xl font-bold">
+<<<<<<< HEAD
                         <span class="text-gray-800">GDG Cloud</span><br><span class="font-light text-gray-500">Bhopal</span>
+=======
+                        <span class="text-gray-800">GDG</span><br><span class="font-light text-gray-500">Bhopal</span>
+>>>>>>> friend/main
                     </a>
                 </div>
                 <div class="lg:col-span-1">
@@ -198,7 +208,11 @@
                 </div>
             </div>
             <div class="mt-12 border-t border-gray-200 pt-8 text-center">
+<<<<<<< HEAD
                 <p class="text-xs text-gray-500">Made with ❤️ by GDG Cloud Bhopal</p>
+=======
+                <p class="text-xs text-gray-500">Made with ❤️ by GDG Bhopal</p>
+>>>>>>> friend/main
             </div>
         </div>
     </footer>
@@ -476,6 +490,24 @@
             }
         });
     });
+<<<<<<< HEAD
+=======
+
+    // Dark Mode Toggle
+    (function() {
+        const currentTheme = localStorage.getItem('theme') || 'light';
+        document.documentElement.setAttribute('data-theme', currentTheme);
+        const themeToggle = document.createElement('button');
+        themeToggle.className = 'theme-toggle';
+        themeToggle.innerHTML = '<svg class="moon-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"/></svg><svg class="sun-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"/></svg>';
+        document.body.appendChild(themeToggle);
+        themeToggle.addEventListener('click', () => {
+            const theme = document.documentElement.getAttribute('data-theme') === 'light' ? 'dark' : 'light';
+            document.documentElement.setAttribute('data-theme', theme);
+            localStorage.setItem('theme', theme);
+        });
+    })();
+>>>>>>> friend/main
     </script>
 </body>
 </html>

@@ -16,6 +16,7 @@
   <link rel="icon" type="image/x-icon" href="favicon.ico">
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Google+Sans:wght@400;500;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+<<<<<<< HEAD
     <style>
         :root {
             --devfest-blue: #4285F4;
@@ -26,6 +27,19 @@
             --devfest-bg-light: #FFFFFF;
             --devfest-bg-alt: #F8F9FA;
             --devfest-gradient-primary: linear-gradient(135deg, #4285F4 0%, #34A853 25%, #FBBC04 50%, #EA4335 100%);
+=======
+    <link rel="stylesheet" href="style.css">
+    <style>
+        :root {
+            --devfest-blue: #4285F4;
+            --devfest-red: #4285F4;
+            --devfest-yellow: #4285F4;
+            --devfest-green: #4285F4;
+            --devfest-text-primary: #212121;
+            --devfest-bg-light: #FFFFFF;
+            --devfest-bg-alt: #FAFAFA;
+            --devfest-gradient-primary: linear-gradient(135deg, #4285F4 0%, #1967D2 100%);
+>>>>>>> friend/main
         }
         body {
             font-family: 'Google Sans', 'Roboto', sans-serif;
@@ -334,11 +348,19 @@
                 <div class="particle"></div>
             </div>
             
+<<<<<<< HEAD
             <!-- DevFest Gradient Background -->
             <div class="absolute inset-0" style="background: linear-gradient(135deg, #4285F4 0%, #9C27B0 50%, #EA4335 100%);"></div>
             
             <!-- DevFest Multi-color Gradient Overlay -->
             <div class="absolute inset-0" style="background: linear-gradient(120deg, rgba(66,133,244,0.9) 0%, rgba(156,39,176,0.8) 35%, rgba(251,188,4,0.7) 65%, rgba(234,67,53,0.9) 100%);"></div>
+=======
+            <!-- Simple Blue Gradient Background -->
+            <div class="absolute inset-0" style="background: linear-gradient(135deg, #4285F4 0%, #1967D2 100%);"></div>
+            
+            <!-- Subtle Blue Overlay -->
+            <div class="absolute inset-0" style="background: linear-gradient(135deg, rgba(66,133,244,0.95) 0%, rgba(25,103,210,0.95) 100%);"></div>
+>>>>>>> friend/main
             
             <!-- Enhanced Background Pattern -->
             <div class="absolute inset-0 opacity-10">
@@ -369,15 +391,25 @@
                         Join the global DevFest community and be part of the world's largest community-driven tech conference.
                     </p>
                     <div class="hero-info inline-flex items-center bg-white/10 backdrop-blur-lg rounded-full px-6 py-3 text-lg bounce-animation">
+<<<<<<< HEAD
                         📍 <span class="ml-2">September 21, 2025 · Bhopal, India</span>
+=======
+                        📍 <span class="ml-2">November 30, 2025 · Courtyard by Marriott, Bhopal</span>
+>>>>>>> friend/main
                     </div>
                 </div>
                 
                 <!-- Tickets Card - Centered and Prominent -->
                 <div class="hero-card max-w-2xl mx-auto">
+<<<<<<< HEAD
                     <div class="bg-white rounded-3xl shadow-2xl p-8 md:p-12 border border-transparent float-animation" style="border-image: linear-gradient(135deg, #4285F4, #34A853, #FBBC04, #EA4335) 1;">
                         <div class="text-center mb-8">
                             <h2 class="text-3xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent mb-4">Interest Form</h2>
+=======
+                    <div class="bg-white rounded-3xl shadow-2xl p-8 md:p-12 border border-transparent float-animation" style="border-image: linear-gradient(135deg, #4285F4, #0F9D58, #F4B400, #DB4437) 1;">
+                        <div class="text-center mb-8">
+                            <h2 class="text-3xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent mb-4">Tickets</h2>
+>>>>>>> friend/main
                             <p class="text-gray-600 text-lg">Fill out the form below to express your interest in DevFest Bhopal 2025!</p>
                         </div>
                         
@@ -471,7 +503,11 @@
         <!-- Stay Connected Section -->
         <section class="py-16 bg-gradient-to-r from-blue-600 to-blue-800 text-white">
             <div class="container mx-auto px-6 text-center">
+<<<<<<< HEAD
                 <h3 class="text-2xl font-bold mb-4">Keep in touch with GDG Cloud Bhopal</h3>
+=======
+                <h3 class="text-2xl font-bold mb-4">Keep in touch with GDG Bhopal</h3>
+>>>>>>> friend/main
                 <p class="mb-8 text-blue-100 text-lg">Follow #DevfestBhopal #Devfest for the latest updates and news</p>
                 <div class="flex justify-center gap-6 mb-6">
                     <a href="https://twitter.com/gdgcloudbhopal" target="_blank" rel="noopener" class="bg-white/10 hover:bg-white/20 p-3 rounded-full transition-all hover:scale-110">
@@ -490,8 +526,13 @@
     </main>
     <!-- Footer -->
     <footer class="bg-gray-100 border-t border-gray-200">
+<<<<<<< HEAD
         <div class="container mx-auto px-6 py-12 text-center">
              <p class="text-xs text-gray-500">Made with ❤️ by GDG Cloud Bhopal</p>
+=======
+       <div class="container mx-auto px-6 py-12 text-center">
+           <p class="text-xs text-gray-500">Made with ❤️ by GDG Bhopal</p>
+>>>>>>> friend/main
         </div>
     </footer>
     <!-- Include external data file -->
@@ -771,6 +812,24 @@
             }
         });
     });
+<<<<<<< HEAD
+=======
+
+    // Dark Mode Toggle
+    (function() {
+        const currentTheme = localStorage.getItem('theme') || 'light';
+        document.documentElement.setAttribute('data-theme', currentTheme);
+        const themeToggle = document.createElement('button');
+        themeToggle.className = 'theme-toggle';
+        themeToggle.innerHTML = '<svg class="moon-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"/></svg><svg class="sun-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"/></svg>';
+        document.body.appendChild(themeToggle);
+        themeToggle.addEventListener('click', () => {
+            const theme = document.documentElement.getAttribute('data-theme') === 'light' ? 'dark' : 'light';
+            document.documentElement.setAttribute('data-theme', theme);
+            localStorage.setItem('theme', theme);
+        });
+    })();
+>>>>>>> friend/main
     </script>
 </body>
 </html>
@@ -786,7 +845,11 @@
   <link href="https://fonts.googleapis.com/css2?family=Google+Sans:wght@400;500;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
   <style>
     body { font-family: 'Google Sans', 'Roboto', sans-serif; }
+<<<<<<< HEAD
     .gradient-text { background: linear-gradient(90deg, #4285F4, #FBBC04, #34A853); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; }
+=======
+    .gradient-text { background: linear-gradient(90deg, #4285F4, #1967D2); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; }
+>>>>>>> friend/main
   </style>
 </head>
 <body class="bg-gray-50 antialiased">

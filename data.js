@@ -5,10 +5,17 @@
 const websiteData = {
   "event": {
     "name": "DevFest Bhopal 2025",
+<<<<<<< HEAD
     "date": "August 3, 2025",
     "venue": "Bhopal, India",
     "venueAddress": "TBD",
     "venueMapUrl": "TBD"
+=======
+    "date": "November 30, 2025",
+    "venue": "Courtyard by Marriott, Bhopal",
+    "venueAddress": "Bhopal, India",
+    "venueMapUrl": "https://www.google.com/maps/place/Courtyard+by+Marriott+Bhopal/@23.2326746,77.4299369,417m/data=!3m2!1e3!5s0x397c4267483078c3:0xd5e54ffe1575b512!4m9!3m8!1s0x397c4260c8051079:0xa455a4bc62fc4ac2!5m2!4m1!1i2!8m2!3d23.2329088!4d77.4294844!16s%2Fg%2F1tzzsxvw?entry=ttu&g_ep=EgoyMDI1MTEwMi4wIKXMDSoASAFQAw%3D%3D"
+>>>>>>> friend/main
   },
   "site": {
     "title": "DevFest Bhopal 2025",
@@ -178,7 +185,11 @@ const websiteData = {
         { "name": "LinkedIn", "url": "https://bit.ly/gdgcloudbhopallinkedin", "iconPath": "M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" },
         { "name": "Instagram", "url": "https://www.instagram.com/gdgcloudbhopal", "iconPath": "M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.85s-.011 3.585-.069 4.85c-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07s-3.585-.012-4.85-.07c-3.252-.148-4.771-1.691-4.919-4.919-.058-1.265-.069-1.645-.069-4.85s.011-3.585.069-4.85c.149-3.225 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.85-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948s.014 3.667.072 4.947c.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072s3.667-.014 4.947-.072c4.358-.2 6.78-2.618 6.98-6.98.059-1.281.073-1.689.073-4.948s-.014-3.667-.072-4.947c-.2-4.358-2.618-6.78-6.98-6.98-1.281-.059-1.689-.073-4.948-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.162 6.162 6.162 6.162-2.759 6.162-6.162-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4s1.791-4 4-4 4 1.79 4 4-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" }
     ],
+<<<<<<< HEAD
     "copyright": "Made with ❤️ by GDG Cloud Bhopal"
+=======
+  "copyright": "Made with ❤️ by GDG Bhopal"
+>>>>>>> friend/main
   },
   "team": {
     "organizers": [
@@ -220,7 +231,57 @@ const websiteData = {
       }
     ],
     "coreTeam": [
+<<<<<<< HEAD
       
+=======
+
+      {
+        "name": "Sanidhya Sahu",
+        "role": "GDGoC Organizer & Lead",
+        "company": "SATI, Vidisha",
+        "bio": "Passionate about building inclusive tech communities and empowering developers with cloud technologies.",
+        "profileUrl": "https://www.linkedin.com/in/ethicaladitya/",
+        "imageUrl": "https://2.gravatar.com/avatar/781518e3519e07fbdd10503b45b6d203f3fd92de8c9fffd58a4e099069cb3d79?size=512&d=initials",
+        "skills": ["Community Building", "Development Operations", "Developer Relations"]
+      },
+      {
+        "name": "Pramanya Rajput",
+        "role": "GDGoC Organizer & Lead",
+        "company": "SOIT, Bhopal",
+        "bio": "Experienced software engineer with a passion for cloud architecture and developer community engagement.",
+        "profileUrl": "https://www.linkedin.com/in/mayurrathi26/",
+        "imageUrl": "https://pbs.twimg.com/profile_images/1378894474718351362/vuLAZU4a_400x400.jpg",
+        "skills": ["Cloud Architecture", "DevOps", "Team Leadership"]
+      },
+      {
+      "name": "Chandra Prakash Ojha",
+      "role": "GDGoC Organizer & Lead",
+      "company": "OIST, Bhopal",
+      "bio": "Passionate volunteer coordinator ensuring smooth event operations and community engagement.",
+      "imageUrl": "https://media.licdn.com/dms/image/v2/D5603AQFfBk6QMe6szQ/profile-displayphoto-scale_400_400/B56Zh2L8.XHQAs-/0/1754329504233?e=1758153600&v=beta&t=NqNB9TtOVjDzDlvB90RPLbSgPrDFiB6cJXcxh34EcjI",
+      "profileUrl": "https://www.linkedin.com/in/shivammishra-styx/",
+      "skills": ["React", "WordPress", "Team Leadership"]
+      },
+      {
+        "name": "Deepti Rai",
+        "role": "GDGoC Core Member",
+        "company": "SATI, Vidisha",
+        "bio": "Loves to solve problems by making products and solutions.",
+        "imageUrl": "Atharva.jpeg",
+        "profileUrl": "https://www.linkedin.com/in/atharvakulkarni/",
+        "skills": ["UX & Software Design", "Startups & Entrepreneurship","No-Code Development"]
+      }
+      ,
+      {
+        "name": "Shreya Mangal",
+        "role": "GDGoC Core Member",
+        "company": "SATI, Vidisha",
+        "bio": "Loves to solve problems by making products and solutions.",
+        "imageUrl": "Atharva.jpeg",
+        "profileUrl": "https://www.linkedin.com/in/atharvakulkarni/",
+        "skills": ["UX & Software Design", "Startups & Entrepreneurship","No-Code Development"]
+      }
+>>>>>>> friend/main
     ]
   },
   /*

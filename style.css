@@ -1,6 +1,7 @@
 /* DevFest Bhopal 2025 - Main Stylesheet */
 /* This file contains all the shared styles across the website */
 
+<<<<<<< HEAD
 /* CSS Custom Properties - DevFest Color Scheme */
 :root {
     --devfest-blue: #4285F4;
@@ -16,6 +17,151 @@
     --devfest-border-color: #E8EAED;
     --devfest-gradient-primary: linear-gradient(135deg, #4285F4 0%, #34A853 25%, #FBBC04 50%, #EA4335 100%);
     --devfest-gradient-hero: linear-gradient(135deg, #4285F4 0%, #9C27B0 50%, #EA4335 100%);
+=======
+/* CSS Custom Properties - Light Theme (Default) */
+:root {
+    /* Primary Color - Blue */
+    --primary-color: #4285F4;
+    --primary-dark: #1967D2;
+    --primary-darker: #1557B0;
+    --primary-light: #669DF6;
+    --primary-lighter: #A8C7FA;
+    --primary-lightest: #D2E3FC;
+    
+    /* Neutral Grays - Light Mode */
+    --grey-50: #FAFAFA;
+    --grey-100: #F5F5F5;
+    --grey-200: #EEEEEE;
+    --grey-300: #E0E0E0;
+    --grey-400: #BDBDBD;
+    --grey-500: #9E9E9E;
+    --grey-600: #757575;
+    --grey-700: #616161;
+    --grey-800: #424242;
+    --grey-900: #212121;
+    
+    /* Text Colors - Light Mode */
+    --text-primary: #212121;
+    --text-secondary: #616161;
+    --text-disabled: #9E9E9E;
+    --text-hint: #BDBDBD;
+    --text-white: #FFFFFF;
+    
+    /* Background Colors - Light Mode */
+    --bg-primary: #FFFFFF;
+    --bg-secondary: #FAFAFA;
+    --bg-tertiary: #F5F5F5;
+    --bg-dark: #212121;
+    
+    /* Border Colors - Light Mode */
+    --border-light: #EEEEEE;
+    --border-medium: #E0E0E0;
+    --border-dark: #BDBDBD;
+    
+    /* Simple Gradients - Blue Only */
+    --gradient-primary: linear-gradient(135deg, #4285F4 0%, #1967D2 100%);
+    --gradient-light: linear-gradient(135deg, #669DF6 0%, #4285F4 100%);
+    --gradient-hero: linear-gradient(135deg, #1967D2 0%, #4285F4 100%);
+    
+    /* Shadow Colors */
+    --shadow-primary: rgba(66, 133, 244, 0.3);
+    --shadow-dark: rgba(0, 0, 0, 0.1);
+    --shadow-darker: rgba(0, 0, 0, 0.2);
+    
+    /* Card Colors */
+    --card-bg: #FFFFFF;
+    --card-shadow: rgba(0, 0, 0, 0.1);
+    
+    /* Legacy variable support */
+    --devfest-blue: #4285F4;
+    --devfest-red: #4285F4;
+    --devfest-yellow: #4285F4;
+    --devfest-green: #4285F4;
+    --devfest-orange: #4285F4;
+    --devfest-purple: #4285F4;
+    --devfest-text-primary: #212121;
+    --devfest-text-secondary: #616161;
+    --devfest-bg-light: #FFFFFF;
+    --devfest-bg-alt: #FAFAFA;
+    --devfest-border-color: #EEEEEE;
+    --devfest-gradient-primary: linear-gradient(135deg, #4285F4 0%, #1967D2 100%);
+    --devfest-gradient-hero: linear-gradient(135deg, #1967D2 0%, #4285F4 100%);
+    
+    /* Single color aliases */
+    --primary: #4285F4;
+    --primary-shadow: rgba(66, 133, 244, 0.3);
+}
+
+/* Dark Theme */
+[data-theme="dark"] {
+    /* Primary Color - Blue (same in dark mode) */
+    --primary-color: #4285F4;
+    --primary-dark: #1967D2;
+    --primary-darker: #1557B0;
+    --primary-light: #669DF6;
+    --primary-lighter: #A8C7FA;
+    --primary-lightest: #D2E3FC;
+    
+    /* Neutral Grays - Dark Mode (inverted) */
+    --grey-50: #121212;
+    --grey-100: #1E1E1E;
+    --grey-200: #2A2A2A;
+    --grey-300: #3A3A3A;
+    --grey-400: #4A4A4A;
+    --grey-500: #6A6A6A;
+    --grey-600: #8A8A8A;
+    --grey-700: #AAAAAA;
+    --grey-800: #CACACA;
+    --grey-900: #EEEEEE;
+    
+    /* Text Colors - Dark Mode */
+    --text-primary: #EEEEEE;
+    --text-secondary: #AAAAAA;
+    --text-disabled: #6A6A6A;
+    --text-hint: #4A4A4A;
+    --text-white: #FFFFFF;
+    
+    /* Background Colors - Dark Mode */
+    --bg-primary: #121212;
+    --bg-secondary: #1E1E1E;
+    --bg-tertiary: #2A2A2A;
+    --bg-dark: #000000;
+    
+    /* Border Colors - Dark Mode */
+    --border-light: #2A2A2A;
+    --border-medium: #3A3A3A;
+    --border-dark: #4A4A4A;
+    
+    /* Simple Gradients - Blue Only */
+    --gradient-primary: linear-gradient(135deg, #4285F4 0%, #1967D2 100%);
+    --gradient-light: linear-gradient(135deg, #669DF6 0%, #4285F4 100%);
+    --gradient-hero: linear-gradient(135deg, #1967D2 0%, #4285F4 100%);
+    
+    /* Shadow Colors - Dark Mode */
+    --shadow-primary: rgba(66, 133, 244, 0.4);
+    --shadow-dark: rgba(0, 0, 0, 0.3);
+    --shadow-darker: rgba(0, 0, 0, 0.5);
+    
+    /* Card Colors - Dark Mode */
+    --card-bg: #1E1E1E;
+    --card-shadow: rgba(0, 0, 0, 0.3);
+    
+    /* Legacy variable support - Dark Mode */
+    --devfest-text-primary: #EEEEEE;
+    --devfest-text-secondary: #AAAAAA;
+    --devfest-bg-light: #121212;
+    --devfest-bg-alt: #1E1E1E;
+    --devfest-border-color: #2A2A2A;
+}
+
+/* Smooth transitions for theme switching */
+body {
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+* {
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+>>>>>>> friend/main
 }
 
 /* Typography & Base Styles */
@@ -72,18 +218,32 @@ body {
 }
 
 .btn-primary:hover {
+<<<<<<< HEAD
     box-shadow: 0 8px 25px rgba(66, 133, 244, 0.4);
     transform: translateY(-3px);
     background: linear-gradient(135deg, #5a9cf8 0%, #46b566 25%, #fcc34a 50%, #f56565 100%);
+=======
+    box-shadow: 0 8px 25px var(--shadow-primary);
+    transform: translateY(-3px);
+    background: linear-gradient(135deg, #669DF6 0%, #4285F4 100%);
+>>>>>>> friend/main
 }
 
 /* Secondary Button Styles */
 .btn-secondary {
+<<<<<<< HEAD
     background: linear-gradient(135deg, #34A853 0%, #46b566 100%);
     color: white;
     transition: all 0.3s ease;
     border-radius: 12px;
     box-shadow: 0 4px 15px rgba(52, 168, 83, 0.3);
+=======
+    background: var(--primary-dark);
+    color: white;
+    transition: all 0.3s ease;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px var(--shadow-primary);
+>>>>>>> friend/main
     position: relative;
     overflow: hidden;
     border: none;
@@ -115,11 +275,19 @@ body {
 
 /* Accent Button Styles */
 .btn-accent {
+<<<<<<< HEAD
     background: linear-gradient(135deg, #EA4335 0%, #FBBC04 100%);
     color: white;
     transition: all 0.3s ease;
     border-radius: 12px;
     box-shadow: 0 4px 15px rgba(234, 67, 53, 0.3);
+=======
+    background: var(--primary-darker);
+    color: white;
+    transition: all 0.3s ease;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px var(--shadow-primary);
+>>>>>>> friend/main
     position: relative;
     overflow: hidden;
     border: none;
@@ -152,8 +320,13 @@ body {
 /* Outline Button Styles */
 .btn-outline {
     background: transparent;
+<<<<<<< HEAD
     color: var(--devfest-blue);
     border: 2px solid var(--devfest-blue);
+=======
+    color: var(--primary-color);
+    border: 2px solid var(--primary-color);
+>>>>>>> friend/main
     transition: all 0.3s ease;
     border-radius: 12px;
     position: relative;
@@ -165,10 +338,17 @@ body {
 }
 
 .btn-outline:hover {
+<<<<<<< HEAD
     background: var(--devfest-gradient-primary);
     color: white;
     transform: translateY(-2px);
     box-shadow: 0 6px 20px rgba(66, 133, 244, 0.3);
+=======
+    background: var(--gradient-primary);
+    color: white;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px var(--shadow-primary);
+>>>>>>> friend/main
     border: 2px solid transparent;
 }
 
@@ -1005,11 +1185,19 @@ body {
 
 /* CSS Variable fallbacks for better browser compatibility */
 .gradient-text {
+<<<<<<< HEAD
     background: linear-gradient(135deg, #4285F4 0%, #34A853 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
     color: #4285F4; /* Fallback for browsers without support */
+=======
+    background: var(--gradient-primary);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: var(--primary-color); /* Fallback for browsers without support */
+>>>>>>> friend/main
 }
 
 /* Ensure proper animations work on all devices */
@@ -1054,3 +1242,326 @@ body {
         transition-duration: 0.01ms !important;
     }
 }
+<<<<<<< HEAD
+=======
+
+/* ============================================
+   DARK THEME SPECIFIC STYLES
+   ============================================ */
+
+/* Dark mode card styles */
+[data-theme="dark"] .card,
+[data-theme="dark"] .feature-card {
+    background: var(--card-bg);
+    border-color: var(--border-medium);
+    box-shadow: 0 8px 30px var(--card-shadow);
+}
+
+[data-theme="dark"] .card:hover,
+[data-theme="dark"] .feature-card:hover {
+    box-shadow: 0 12px 40px rgba(66, 133, 244, 0.2);
+}
+
+/* Dark mode navigation */
+[data-theme="dark"] .nav-header {
+    background: var(--bg-secondary);
+    border-bottom: 1px solid var(--border-light);
+}
+
+[data-theme="dark"] .nav-header.scrolled {
+    background: rgba(30, 30, 30, 0.95);
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.5);
+}
+
+/* Dark mode section backgrounds */
+[data-theme="dark"] .section-bg {
+    background-color: var(--bg-secondary);
+    border-top: 1px solid var(--border-light);
+}
+
+[data-theme="dark"] .bg-white {
+    background-color: var(--bg-secondary) !important;
+}
+
+[data-theme="dark"] .bg-gray-50 {
+    background-color: var(--bg-primary) !important;
+}
+
+[data-theme="dark"] .bg-gray-100 {
+    background-color: var(--bg-secondary) !important;
+}
+
+/* Dark mode text colors */
+[data-theme="dark"] .text-gray-600,
+[data-theme="dark"] .text-gray-700,
+[data-theme="dark"] .text-gray-800 {
+    color: var(--text-secondary) !important;
+}
+
+[data-theme="dark"] .text-gray-900 {
+    color: var(--text-primary) !important;
+}
+
+/* Dark mode borders */
+[data-theme="dark"] .border,
+[data-theme="dark"] .border-gray-100,
+[data-theme="dark"] .border-gray-200 {
+    border-color: var(--border-light) !important;
+}
+
+/* Dark mode hero gradient overlay */
+[data-theme="dark"] section > div[style*="gradient"] {
+    opacity: 0.9;
+}
+
+/* --------------------------------------------
+   Dark mode: professional section separators
+   Adds a subtle gradient hairline between sections
+   without affecting light theme or layout
+--------------------------------------------- */
+[data-theme="dark"] main > section {
+    position: relative;
+}
+
+[data-theme="dark"] main > section + section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 1px;
+    z-index: 2;
+    /* Soft white hairline that fades at edges */
+    background: linear-gradient(90deg,
+        rgba(255,255,255,0),
+        rgba(255,255,255,0.14),
+        rgba(255,255,255,0.18),
+        rgba(255,255,255,0.14),
+        rgba(255,255,255,0)
+    );
+    pointer-events: none;
+}
+
+/* Stronger contrast on pure-black homepage */
+[data-theme="dark"] .homepage-black main > section + section::before {
+    background: linear-gradient(90deg,
+        rgba(255,255,255,0),
+        rgba(255,255,255,0.16),
+        rgba(255,255,255,0.22),
+        rgba(255,255,255,0.16),
+        rgba(255,255,255,0)
+    );
+}
+
+/* Theme Toggle Button */
+.theme-toggle {
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    background: var(--primary-color);
+    color: white;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 4px 20px var(--shadow-primary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+    transition: all 0.3s ease;
+    overflow: hidden;
+}
+
+.theme-toggle:hover {
+    transform: scale(1.1);
+    box-shadow: 0 6px 30px var(--shadow-primary);
+}
+
+.theme-toggle:active {
+    transform: scale(0.95);
+}
+
+.theme-toggle svg {
+    width: 24px;
+    height: 24px;
+    transition: transform 0.3s ease;
+}
+
+.theme-toggle:hover svg {
+    transform: rotate(20deg);
+}
+
+/* Hide sun icon in light mode, moon in dark mode */
+.theme-toggle .sun-icon {
+    display: none;
+}
+
+[data-theme="dark"] .theme-toggle .sun-icon {
+    display: block;
+}
+
+[data-theme="dark"] .theme-toggle .moon-icon {
+    display: none;
+}
+
+/* Theme toggle tooltip */
+.theme-toggle::after {
+    content: 'Toggle Dark Mode';
+    position: absolute;
+    right: 100%;
+    margin-right: 1rem;
+    background: var(--grey-900);
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    white-space: nowrap;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s ease;
+    font-size: 0.875rem;
+}
+
+[data-theme="dark"] .theme-toggle::after {
+    content: 'Toggle Light Mode';
+    background: var(--grey-100);
+    color: var(--grey-900);
+}
+
+.theme-toggle:hover::after {
+    opacity: 1;
+}
+
+/* Mobile theme toggle */
+@media (max-width: 768px) {
+    .theme-toggle {
+        bottom: 1rem;
+        right: 1rem;
+        width: 48px;
+        height: 48px;
+    }
+    
+    .theme-toggle::after {
+        display: none;
+    }
+}
+
+/* Dark mode footer */
+[data-theme="dark"] footer {
+    background-color: var(--bg-secondary);
+    border-top: 1px solid var(--border-light);
+}
+
+/* Dark mode testimonials */
+[data-theme="dark"] blockquote {
+    color: var(--text-secondary);
+}
+
+/* Dark mode form inputs */
+[data-theme="dark"] input,
+[data-theme="dark"] textarea,
+[data-theme="dark"] select {
+    background-color: var(--bg-tertiary);
+    border-color: var(--border-medium);
+    color: var(--text-primary);
+}
+
+[data-theme="dark"] input:focus,
+[data-theme="dark"] textarea:focus,
+[data-theme="dark"] select:focus {
+    border-color: var(--primary-color);
+    background-color: var(--bg-secondary);
+}
+
+/* Prevent flash of unstyled content */
+html:not([data-theme]) {
+    visibility: hidden;
+}
+
+html[data-theme] {
+    visibility: visible;
+}
+
+/* ============================================
+   HOMEPAGE DARK THEME (applies only when data-theme="dark")
+   Add class `homepage-black` to <body> on index.html
+   ============================================ */
+[data-theme="dark"] .homepage-black section {
+    background-color: #000 !important;
+    background-image: none !important;
+}
+
+/* Hide any inline gradient overlays inside sections in dark */
+[data-theme="dark"] .homepage-black section > div[style*="linear-gradient"] {
+    display: none !important;
+}
+
+/* Ensure section helper classes are also black */
+[data-theme="dark"] .homepage-black .section-bg {
+    background-color: #000 !important;
+    border-top-color: #111 !important;
+}
+
+/* Make generic white backgrounds dark on homepage (cards/blocks) */
+[data-theme="dark"] .homepage-black .bg-white,
+[data-theme="dark"] .homepage-black .bg-gray-50,
+[data-theme="dark"] .homepage-black .bg-gray-100 {
+    background-color: #0b0b0b !important;
+}
+
+/* Nuke Tailwind gradient utilities within homepage to keep pure black */
+[data-theme="dark"] .homepage-black [class*="bg-gradient"] {
+    background-image: none !important;
+    background-color: #0b0b0b !important;
+}
+
+/* Also catch any white-with-alpha backgrounds like bg-white/80 */
+[data-theme="dark"] .homepage-black [class*="bg-white/"] {
+    background: #0f0f0f !important;
+}
+
+/* Cards on homepage use dark shades */
+[data-theme="dark"] .homepage-black .card,
+[data-theme="dark"] .homepage-black .feature-card,
+[data-theme="dark"] .homepage-black .faq-item,
+[data-theme="dark"] .homepage-black .hero-card {
+    background-color: #0e0e0e !important;
+    border-color: #1f1f1f !important;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.4) !important;
+}
+
+/* Text contrast on homepage */
+[data-theme="dark"] .homepage-black .text-gray-800,
+[data-theme="dark"] .homepage-black .text-gray-700,
+[data-theme="dark"] .homepage-black .text-gray-600,
+[data-theme="dark"] .homepage-black .title,
+[data-theme="dark"] .homepage-black .body-1,
+[data-theme="dark"] .homepage-black .headline-2,
+[data-theme="dark"] .homepage-black .headline-3 {
+    color: #e5e7eb !important; /* Tailwind gray-200 */
+}
+
+[data-theme="dark"] .homepage-black p,
+[data-theme="dark"] .homepage-black .text-gray-500,
+[data-theme="dark"] .homepage-black .text-blue-100 {
+    color: #b3b3b3 !important;
+}
+
+/* Footer on homepage black */
+[data-theme="dark"] .homepage-black footer {
+    background-color: #000 !important;
+    border-top-color: #111 !important;
+}
+
+/* Divider on black */
+[data-theme="dark"] .homepage-black .section-divider {
+    background: linear-gradient(90deg, transparent, #111, transparent) !important;
+}
+
+/* Hero overlays visibility per theme */
+.hero-overlay-light { display: block; }
+.hero-overlay-black { display: none; }
+[data-theme="dark"] .hero-overlay-light { display: none; }
+[data-theme="dark"] .hero-overlay-black { display: block; }
+>>>>>>> friend/main
