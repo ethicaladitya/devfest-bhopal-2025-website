@@ -34,6 +34,7 @@ const websiteData = {
       ]
     },
     { "text": "Team", "url": "team.html" },
+    { "text": "Call for Speakers", "url": "call-for-speakers.html" },
     { "text": "Call for Sponsors", "url": "call-for-sponsors.html" },
     { "text": "Partners", "url": "partners.html" },
   ],
@@ -459,12 +460,12 @@ const websiteData = {
           {
             "name": "GDG on Campus - SATI Vidisha",
             "description": "GDG on Campus at SATI Vidisha empowers students with cutting-edge Google technologies, fostering innovation through workshops, hackathons, and community-driven tech events.",
-            "logoUrl": "https://ui-avatars.com/api/?name=GDG+SATI&size=400&background=4285f4&color=fff&bold=true&font-size=0.4",
-            "websiteUrl": "#",
+            "logoUrl": "Community-Partner-Logo/sati.jpeg",
+            "websiteUrl": "https://www.linkedin.com/company/gdgoc-sati/",
             "socialMedia": {
               "twitter": "#",
-              "linkedin": "#",
-              "instagram": "#"
+              "linkedin": "https://www.linkedin.com/company/gdgoc-sati/",
+              "instagram": "https://www.instagram.com/gdgoc.sati"
             }
           },
           {
