@@ -51,26 +51,8 @@ const websiteData = {
   "title": "Meet The Organizers",
   "list": [
     {
-      "name": "Aditya Shah",
-      "title": "GDG Organizer & Lead",
-      "company": "WPMUDEV",
-      "bio": "Passionate about building inclusive tech communities and empowering developers with cloud technologies.",
-      "imageUrl": "https://2.gravatar.com/avatar/781518e3519e07fbdd10503b45b6d203f3fd92de8c9fffd58a4e099069cb3d79?size=512&d=initials",
-      "linkedin": "https://www.linkedin.com/in/ethicaladitya/",
-      "twitter": "#"
-    },
-    {
-      "name": "Mayur Rathi",
-      "title": "Co-Organizer",
-      "company": "Capgemini",
-      "bio": "Experienced software engineer with a passion for cloud architecture and developer community engagement.",
-      "imageUrl": "https://pbs.twimg.com/profile_images/1378894474718351362/vuLAZU4a_400x400.jpg",
-      "linkedin": "https://www.linkedin.com/in/mayurrathi26/",
-      "twitter": "#"
-    },
-    {
       "name": "Shivam Mishra",
-      "title": "GDG Organizer",
+      "title": "GDG Bhopal Organizer",
       "company": "Sansys Informatics",
       "bio": "Passionate volunteer coordinator ensuring smooth event operations and community engagement.",
       "imageUrl": "team image/shivam.png",
@@ -79,11 +61,29 @@ const websiteData = {
     },
     {
       "name": "Atharva Kulkarni",
-      "title": "GDG Organizer",
+      "title": "GDG Bhopal Organizer",
       "company": "Vitraya Technologies",
       "bio": "Loves to solve problems by making products and solutions.",
       "imageUrl": "team image/Atharva.jpeg",
       "linkedin": "https://www.linkedin.com/in/atharvakulkarni/",
+      "twitter": "#"
+    },
+    {
+      "name": "Aditya Shah",
+      "title": "GDG Cloud Bhopal Organizer",
+      "company": "WPMUDEV",
+      "bio": "Passionate about building inclusive tech communities and empowering developers with cloud technologies.",
+      "imageUrl": "https://2.gravatar.com/avatar/781518e3519e07fbdd10503b45b6d203f3fd92de8c9fffd58a4e099069cb3d79?size=512&d=initials",
+      "linkedin": "https://www.linkedin.com/in/ethicaladitya/",
+      "twitter": "#"
+    },
+    {
+      "name": "Mayur Rathi",
+      "title": "GDG Cloud Co-Organizer",
+      "company": "Capgemini",
+      "bio": "Experienced software engineer with a passion for cloud architecture and developer community engagement.",
+      "imageUrl": "https://pbs.twimg.com/profile_images/1378894474718351362/vuLAZU4a_400x400.jpg",
+      "linkedin": "https://www.linkedin.com/in/mayurrathi26/",
       "twitter": "#"
     }
   ]
@@ -257,16 +257,6 @@ const websiteData = {
         "bio": "Loves to solve problems by making products and solutions.",
         "imageUrl": "team image/deepti.jpeg",
         "profileUrl": "https://www.linkedin.com/in/deepti-rai-77517a2a2/",
-        "skills": ["UX & Software Design", "Startups & Entrepreneurship","No-Code Development"]
-      }
-      ,
-      {
-        "name": "Shreya Mangal",
-        "role": "GDGoC Core Member",
-        "company": "SATI, Vidisha",
-        "bio": "Loves to solve problems by making products and solutions.",
-        "imageUrl": "team image/shreya.png",
-        "profileUrl": "https://www.linkedin.com/in/shreya-mangal/",
         "skills": ["UX & Software Design", "Startups & Entrepreneurship","No-Code Development"]
       },
       {
