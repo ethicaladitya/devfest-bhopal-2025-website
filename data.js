@@ -5,10 +5,10 @@
 const websiteData = {
   "event": {
     "name": "DevFest Bhopal 2025",
-    "date": "August 3, 2025",
-    "venue": "Bhopal, India",
-    "venueAddress": "TBD",
-    "venueMapUrl": "TBD"
+    "date": "November 30, 2025",
+    "venue": "Courtyard by Marriott, Bhopal",
+    "venueAddress": "Bhopal, India",
+    "venueMapUrl": "https://www.google.com/maps/place/Courtyard+by+Marriott+Bhopal/@23.2326746,77.4299369,417m/data=!3m2!1e3!5s0x397c4267483078c3:0xd5e54ffe1575b512!4m9!3m8!1s0x397c4260c8051079:0xa455a4bc62fc4ac2!5m2!4m1!1i2!8m2!3d23.2329088!4d77.4294844!16s%2Fg%2F1tzzsxvw?entry=ttu&g_ep=EgoyMDI1MTEwMi4wIKXMDSoASAFQAw%3D%3D"
   },
   "site": {
     "title": "DevFest Bhopal 2025",
@@ -17,7 +17,7 @@ const websiteData = {
       "text": "GDG Bhopal"
     },
     "mainCta": {
-      "text": "Interest Form",
+      "text": "Get Tickets",
       "url": "tickets.html"
     },
     "chapterPageUrl": "https://gdg.community.dev/gdg-bhopal/"
@@ -34,7 +34,8 @@ const websiteData = {
       ]
     },
     { "text": "Team", "url": "team.html" },
-    { "text": "Interest Form", "url": "tickets.html" },
+    { "text": "Call for Speakers", "url": "call-for-speakers.html" },
+    { "text": "Call for Sponsors", "url": "call-for-sponsors.html" },
     { "text": "Partners", "url": "partners.html" },
   ],
   "hero": {
@@ -50,8 +51,26 @@ const websiteData = {
   "title": "Meet The Organizers",
   "list": [
     {
+      "name": "Shivam Mishra",
+      "title": "GDG Bhopal Organizer",
+      "company": "Sansys Informatics",
+      "bio": "Passionate volunteer coordinator ensuring smooth event operations and community engagement.",
+      "imageUrl": "team image/shivam.png",
+      "linkedin": "https://www.linkedin.com/in/shivammishra-styx/",
+      "twitter": "#"
+    },
+    {
+      "name": "Atharva Kulkarni",
+      "title": "GDG Bhopal Organizer",
+      "company": "Vitraya Technologies",
+      "bio": "Loves to solve problems by making products and solutions.",
+      "imageUrl": "team image/Atharva.jpeg",
+      "linkedin": "https://www.linkedin.com/in/atharvakulkarni/",
+      "twitter": "#"
+    },
+    {
       "name": "Aditya Shah",
-      "title": "GDG Organizer & Lead",
+      "title": "GDG Cloud Bhopal Organizer",
       "company": "WPMUDEV",
       "bio": "Passionate about building inclusive tech communities and empowering developers with cloud technologies.",
       "imageUrl": "https://2.gravatar.com/avatar/781518e3519e07fbdd10503b45b6d203f3fd92de8c9fffd58a4e099069cb3d79?size=512&d=initials",
@@ -60,29 +79,11 @@ const websiteData = {
     },
     {
       "name": "Mayur Rathi",
-      "title": "Co-Organizer",
+      "title": "GDG Cloud Co-Organizer",
       "company": "Capgemini",
       "bio": "Experienced software engineer with a passion for cloud architecture and developer community engagement.",
       "imageUrl": "https://pbs.twimg.com/profile_images/1378894474718351362/vuLAZU4a_400x400.jpg",
       "linkedin": "https://www.linkedin.com/in/mayurrathi26/",
-      "twitter": "#"
-    },
-    {
-      "name": "Shivam Mishra",
-      "title": "GDG Organizer",
-      "company": "Sansys Informatics",
-      "bio": "Passionate volunteer coordinator ensuring smooth event operations and community engagement.",
-      "imageUrl": "https://media.licdn.com/dms/image/v2/D5603AQFfBk6QMe6szQ/profile-displayphoto-scale_400_400/B56Zh2L8.XHQAs-/0/1754329504233?e=1758153600&v=beta&t=NqNB9TtOVjDzDlvB90RPLbSgPrDFiB6cJXcxh34EcjI",
-      "linkedin": "https://www.linkedin.com/in/shivammishra-styx/",
-      "twitter": "#"
-    },
-    {
-      "name": "Atharva Kulkarni",
-      "title": "GDG Organizer",
-      "company": "Vitraya Technologies",
-      "bio": "Loves to solve problems by making products and solutions.",
-      "imageUrl": "Atharva.jpeg",
-      "linkedin": "https://www.linkedin.com/in/atharvakulkarni/",
       "twitter": "#"
     }
   ]
@@ -174,11 +175,12 @@ const websiteData = {
       { "text": "Become a Member", "url": "https://gdg.community.dev/gdg-cloud-bhopal/" }
     ],
     "socials": [
-        { "name": "Twitter", "url": "https://bit.ly/gdgcloudbhopaltwitter", "iconPath": "M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.71v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84" },
-        { "name": "LinkedIn", "url": "https://bit.ly/gdgcloudbhopallinkedin", "iconPath": "M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" },
-        { "name": "Instagram", "url": "https://www.instagram.com/gdgcloudbhopal", "iconPath": "M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.85s-.011 3.585-.069 4.85c-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07s-3.585-.012-4.85-.07c-3.252-.148-4.771-1.691-4.919-4.919-.058-1.265-.069-1.645-.069-4.85s.011-3.585.069-4.85c.149-3.225 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.85-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948s.014 3.667.072 4.947c.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072s3.667-.014 4.947-.072c4.358-.2 6.78-2.618 6.98-6.98.059-1.281.073-1.689.073-4.948s-.014-3.667-.072-4.947c-.2-4.358-2.618-6.78-6.98-6.98-1.281-.059-1.689-.073-4.948-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.162 6.162 6.162 6.162-2.759 6.162-6.162-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4s1.791-4 4-4 4 1.79 4 4-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" }
+        { "name": "Twitter", "url": "https://www.twitter.com/BhopalCoders", "iconPath": "M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.71v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84" },
+        { "name": "LinkedIn", "url": "https://www.linkedin.com/company/gdgbhopal", "iconPath": "M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" },
+        { "name": "Instagram", "url": "https://www.instagram.com/gdgbhopal", "iconPath": "M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.85s-.011 3.585-.069 4.85c-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07s-3.585-.012-4.85-.07c-3.252-.148-4.771-1.691-4.919-4.919-.058-1.265-.069-1.645-.069-4.85s.011-3.585.069-4.85c.149-3.225 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.85-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948s.014 3.667.072 4.947c.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072s3.667-.014 4.947-.072c4.358-.2 6.78-2.618 6.98-6.98.059-1.281.073-1.689.073-4.948s-.014-3.667-.072-4.947c-.2-4.358-2.618-6.78-6.98-6.98-1.281-.059-1.689-.073-4.948-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.162 6.162 6.162 6.162-2.759 6.162-6.162-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4s1.791-4 4-4 4 1.79 4 4-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" },
+        { "name": "Website", "url": "https://gdgbhopal.com/", "iconPath": "M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 17.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z" }
     ],
-    "copyright": "Made with ❤️ by GDG Cloud Bhopal"
+  "copyright": "Made with ❤️ by GDG Bhopal"
   },
   "team": {
     "organizers": [
@@ -205,7 +207,7 @@ const websiteData = {
       "role": "GDG Organizer",
       "company": "Sansys Informatics",
       "bio": "Passionate volunteer coordinator ensuring smooth event operations and community engagement.",
-      "imageUrl": "https://media.licdn.com/dms/image/v2/D5603AQFfBk6QMe6szQ/profile-displayphoto-scale_400_400/B56Zh2L8.XHQAs-/0/1754329504233?e=1758153600&v=beta&t=NqNB9TtOVjDzDlvB90RPLbSgPrDFiB6cJXcxh34EcjI",
+      "imageUrl": "team image/shivam.png",
       "profileUrl": "https://www.linkedin.com/in/shivammishra-styx/",
       "skills": ["React", "WordPress", "Team Leadership"]
       },
@@ -214,13 +216,58 @@ const websiteData = {
         "role": "GDG Organizer",
         "company": "Vitraya Technologies",
         "bio": "Loves to solve problems by making products and solutions.",
-        "imageUrl": "Atharva.jpeg",
+        "imageUrl": "team image/Atharva.jpeg",
         "profileUrl": "https://www.linkedin.com/in/atharvakulkarni/",
         "skills": ["UX & Software Design", "Startups & Entrepreneurship","No-Code Development"]
       }
     ],
     "coreTeam": [
-      
+
+      {
+        "name": "Sanidhya Sahu",
+        "role": "GDGoC Organizer & Lead",
+        "company": "SATI, Vidisha",
+        "bio": "Passionate about building inclusive tech communities and empowering developers with cloud technologies.",
+        "profileUrl": "https://www.linkedin.com/in/sanidhya-sahu/",
+        "imageUrl": "team image/sanidhya.jpeg",
+        "skills": ["Community Building", "Development Operations", "Developer Relations"]
+      },
+      {
+        "name": "Pramanya Rajput",
+        "role": "GDGoC Organizer & Lead",
+        "company": "SOIT, Bhopal",
+        "bio": "Experienced software engineer with a passion for cloud architecture and developer community engagement.",
+        "profileUrl": "https://www.linkedin.com/in/pramanya-rajput/",
+        "imageUrl": "team image/pramanya.jpeg",
+        "skills": ["Cloud Architecture", "DevOps", "Team Leadership"]
+      },
+      {
+      "name": "Chandra Prakash Ojha",
+      "role": "GDGoC Organizer & Lead",
+      "company": "OIST, Bhopal",
+      "bio": "Passionate volunteer coordinator ensuring smooth event operations and community engagement.",
+      "imageUrl": "team image/chandra prakash.jpeg",
+      "profileUrl": "https://www.linkedin.com/in/cpojha17/",
+      "skills": ["React", "WordPress", "Team Leadership"]
+      },
+      {
+        "name": "Deepti Rai",
+        "role": "GDGoC Core Member",
+        "company": "SATI, Vidisha",
+        "bio": "Loves to solve problems by making products and solutions.",
+        "imageUrl": "team image/deepti.jpeg",
+        "profileUrl": "https://www.linkedin.com/in/deepti-rai-77517a2a2/",
+        "skills": ["UX & Software Design", "Startups & Entrepreneurship","No-Code Development"]
+      },
+      {
+        "name": "Taufiq Lohar",
+        "role": "GDGoC Core Member",
+        "company": "SATI, Vidisha",
+        "bio": "Dedicated team member contributing to community growth and development.",
+        "profileUrl": "https://www.linkedin.com/in/taufiq-lohar-3023ab344/",
+        "imageUrl": "team image/taufiq.jpeg",
+        "skills": ["Community Building", "Event Management", "Technical Support"]
+      }
     ]
   },
   /*
@@ -373,7 +420,7 @@ const websiteData = {
   */
   "communityPartners": {
     "title": "Partners",
-    "subtitle": "Meet our amazing partners who make Devfest Bhopal 2025 2025 possible through their collaboration and support",
+    "subtitle": "Meet our amazing partners who make DevFest Bhopal 2025 possible through their collaboration and support",
     "categories": [
       {
         "name": "Community Partners",
@@ -383,28 +430,6 @@ const websiteData = {
             "description": "The WordPress Bhopal community is dedicated to empowering developers, designers, and content creators with WordPress skills and knowledge.",
             "logoUrl": "https://bhopal.wordcamp.org/2025/files/2025/05/Group-16.png",
             "websiteUrl": "https://wpbhopal.org/",
-            "socialMedia": {
-              "twitter": "#",
-              "linkedin": "#",
-              "instagram": "#"
-            }
-          },
-          {
-            "name": "ML Bhopal",
-            "description": "A vibrant community of machine learning enthusiasts, researchers, and practitioners fostering AI innovation in central India.",
-            "logoUrl": "https://json.commudle.com/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBN3VvQWc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--4ed2fc68ffea9fddb06fbb4c636b9663346c820b/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9MWm05eWJXRjBTU0lJY0c1bkJqb0dSVlE2RkhKbGMybDZaVjkwYjE5c2FXMXBkRnNIYVFKQUFXa0NRQUU2QzJ4dllXUmxjbnNHT2dsd1lXZGxNQT09IiwiZXhwIjpudWxsLCJwdXIiOiJ2YXJpYXRpb24ifX0=--e1b8c3103b542b9d7ba47b2862e0d51860fbef22/ML_Bhopal_Logo.png",
-            "websiteUrl": "https://www.commudle.com/communities/ml-bhopal",
-            "socialMedia": {
-              "twitter": "#",
-              "linkedin": "#",
-              "github": "#"
-            }
-          },
-          {
-            "name": "Bhopal DAO",
-            "description": "Building the future of decentralized technology and blockchain innovation in Bhopal through community-driven initiatives.",
-            "logoUrl": "https://www.bhopaldao.xyz/images/logo.png",
-            "websiteUrl": "https://www.bhopaldao.xyz/",
             "socialMedia": {
               "twitter": "#",
               "linkedin": "#",
@@ -423,30 +448,30 @@ const websiteData = {
             }
           },
           {
-            "name": "GDSC On Campus - MITS Gwalior",
-            "description": "GDSC On Campus at MITS Gwalior is a student-led community focused on fostering innovation and learning through Google technologies, workshops, and collaborative projects.",
-            "logoUrl": "Community-Partner-Logo/mits.png",
-            "websiteUrl": "https://www.linkedin.com/company/gdg-on-campus-mits-gwalior/",
+            "name": "GDG on Campus - SATI Vidisha",
+            "description": "GDG on Campus at SATI Vidisha empowers students with cutting-edge Google technologies, fostering innovation through workshops, hackathons, and community-driven tech events.",
+            "logoUrl": "Community-Partner-Logo/sati.jpeg",
+            "websiteUrl": "https://www.linkedin.com/company/gdgoc-sati/",
             "socialMedia": {
               "twitter": "#",
-              "linkedin": "https://www.linkedin.com/company/gdg-on-campus-mits-gwalior/",
+              "linkedin": "https://www.linkedin.com/company/gdgoc-sati/",
+              "instagram": "https://www.instagram.com/gdgoc.sati"
+            }
+          },
+          {
+            "name": "GDG on Campus - OIST",
+            "description": "GDG on Campus at OIST encourages innovation and technical growth among students through Google developer programs, events, and collaborative learning opportunities.",
+            "logoUrl": "Community-Partner-Logo/oist.jpg",
+            "websiteUrl": "https://www.linkedin.com/company/gdgcoist/",
+            "socialMedia": {
+              "twitter": "#",
+              "linkedin": "https://www.linkedin.com/company/gdgcoist/",
               "instagram": "#"
             }
           },
           {
-            "name": "GDSC On Campus - GGITS",
-            "description": "GDSC On Campus at GGITS empowers students with skills in Google developer tools, hosting events, hackathons, and sessions to build tech solutions for real-world problems.",
-            "logoUrl": "Community-Partner-Logo/gyan-ganga.jpg",
-            "websiteUrl": "https://www.linkedin.com/company/google-developer-groups-ggits/",
-            "socialMedia": {
-              "twitter": "#",
-              "linkedin": "https://www.linkedin.com/company/google-developer-groups-ggits/",
-              "instagram": "#"
-            }
-          },
-          {
-            "name": "GDSC On Campus - LNCTS",
-            "description": "GDSC On Campus at LNCTS connects students passionate about technology, offering resources, mentorship, and events centered around Google technologies and developer best practices.",
+            "name": "GDG on Campus - LNCTS",
+            "description": "GDG on Campus at LNCTS connects students passionate about technology, offering resources, mentorship, and events centered around Google technologies and developer best practices.",
             "logoUrl": "Community-Partner-Logo/lncts.jpg",
             "websiteUrl": "https://www.linkedin.com/company/google-developer-students-club-lncts/",
             "socialMedia": {
@@ -456,19 +481,8 @@ const websiteData = {
             }
           },
           {
-            "name": "GDSC On Campus - LNCTE",
-            "description": "GDSC On Campus at LNCTE is dedicated to bridging the gap between academia and industry through Google developer ecosystems, workshops, and community-driven initiatives.",
-            "logoUrl": "Community-Partner-Logo/lncte.jpg",
-            "websiteUrl": "https://www.linkedin.com/company/google-developer-student-club-lncte/",
-            "socialMedia": {
-              "twitter": "#",
-              "linkedin": "https://www.linkedin.com/company/google-developer-student-club-lncte/",
-              "instagram": "#"
-            }
-          },
-          {
-            "name": "GDSC On Campus - SOIT RGPV",
-            "description": "GDSC On Campus at SOIT RGPV inspires students to explore Android, cloud computing, and other Google technologies through interactive sessions and collaborative projects.",
+            "name": "GDG on Campus - SOIT RGPV",
+            "description": "GDG on Campus at SOIT RGPV inspires students to explore Android, cloud computing, and other Google technologies through interactive sessions and collaborative projects.",
             "logoUrl": "Community-Partner-Logo/soit.jpg",
             "websiteUrl": "https://www.linkedin.com/company/google-developer-student-clubs-soit-rgpv/",
             "socialMedia": {
@@ -478,19 +492,8 @@ const websiteData = {
             }
           },
           {
-            "name": "GDSC On Campus - SIRT",
-            "description": "GDSC On Campus at SIRT fosters a vibrant community of developers, organizing events and hackathons to promote innovation using Google developer tools and resources.",
-            "logoUrl": "Community-Partner-Logo/sirt.jpg",
-            "websiteUrl": "https://www.linkedin.com/company/google-developer-group-sirt/",
-            "socialMedia": {
-              "twitter": "#",
-              "linkedin": "https://www.linkedin.com/company/google-developer-group-sirt/",
-              "instagram": "#"
-            }
-          },
-          {
-            "name": "GDSC On Campus - SISTec",
-            "description": "GDSC On Campus at SISTec brings together aspiring developers to learn, build, and grow with Google technologies through workshops, talks, and community events.",
+            "name": "GDG on Campus - SISTec",
+            "description": "GDG on Campus at SISTec brings together aspiring developers to learn, build, and grow with Google technologies through workshops, talks, and community events.",
             "logoUrl": "Community-Partner-Logo/sistec.jpg",
             "websiteUrl": "https://www.linkedin.com/company/gdgsistec/",
             "socialMedia": {
@@ -498,52 +501,7 @@ const websiteData = {
               "linkedin": "https://www.linkedin.com/company/gdgsistec/",
               "instagram": "#"
             }
-          },
-          {
-            "name": "GDSC On Campus - VIT Bhopal",
-            "description": "GDSC On Campus at VIT Bhopal supports students in developing tech skills with Google tools, hosting sessions on AI, web development, and more for career advancement.",
-            "logoUrl": "Community-Partner-Logo/vit-bhopal.png",
-            "websiteUrl": "https://www.linkedin.com/company/gdgcvitbhopal/",
-            "socialMedia": {
-              "twitter": "#",
-              "linkedin": "https://www.linkedin.com/company/gdgcvitbhopal/",
-              "instagram": "#"
-            }
-          },
-          {
-            "name": "GDSC On Campus - OIST",
-            "description": "GDSC On Campus at OIST encourages innovation and technical growth among students through Google developer programs, events, and collaborative learning opportunities.",
-            "logoUrl": "Community-Partner-Logo/oist.jpg",
-            "websiteUrl": "https://www.linkedin.com/company/gdgcoist/",
-            "socialMedia": {
-              "twitter": "#",
-              "linkedin": "#",
-              "instagram": "#"
-            }
-          },
-          {
-            "name": "AIESEC Bhopal",
-            "description": "AIESEC Bhopal is part of a global youth-led organization that develops leadership potential through international internships, volunteer projects, and cross-cultural experiences.",
-            "logoUrl": "https://media.licdn.com/dms/image/v2/C4D0BAQGZ32_VMDIc0w/company-logo_200_200/company-logo_200_200/0/1630503270621/aiesecindia_logo?e=1756339200&v=beta&t=ozHVtqjcSzrfiRzlSIMsmiYKC2D77Iyu_AlmSSizYTQ",
-            "websiteUrl": "https://www.linkedin.com/company/aiesecindia/",
-            "socialMedia": {
-              "twitter": "#",
-              "linkedin": "https://www.linkedin.com/company/aiesecindia/",
-              "instagram": "#"
-            }
-          },
-          {
-            "name": "Techhelp4u",
-            "description": "Techhelp4u provides technical support, resources, and community-driven assistance to help individuals and businesses navigate technology challenges and solutions.",
-            "logoUrl": "https://media.licdn.com/dms/image/v2/D4E0BAQFuZ3VzSOkycg/company-logo_200_200/B4EZgd6ct0HgAQ-/0/1752848518951/techhelp4u_logo?e=1756339200&v=beta&t=gNnjAlkH_hqAgkMyWp3uV2pReNhvP5e8PRCYKAUcJeY",
-            "websiteUrl": "https://www.linkedin.com/company/techhelp4u/",
-            "socialMedia": {
-              "twitter": "#",
-              "linkedin": "https://www.linkedin.com/company/techhelp4u/",
-              "instagram": "#"
-            }
           }
-
         ]
       }
     ]
