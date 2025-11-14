@@ -260,7 +260,7 @@ const websiteData = {
         "skills": ["UX & Software Design", "Startups & Entrepreneurship","No-Code Development"]
       },
       {
-        "name": "Tofique Lohar",
+        "name": "Taufiq Lohar",
         "role": "GDGoC Core Member",
         "company": "SATI, Vidisha",
         "bio": "Dedicated team member contributing to community growth and development.",

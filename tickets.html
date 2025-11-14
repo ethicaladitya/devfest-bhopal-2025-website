@@ -294,7 +294,7 @@
     <header class="nav-header sticky top-0 z-50">
     <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
       <a href="index.html" class="logo-container flex items-center space-x-3">
-        <img id="header-logo-img" src="" alt="Google Cloud Logo" class="h-20 w-auto max-h-24 object-contain">
+        <img id="header-logo-img" src="" alt="GDG Bhopal Logo" class="h-16 w-auto max-h-20 object-contain">
       </a>
       <!-- Desktop Navigation -->
       <div id="nav-links" class="hidden lg:flex items-center space-x-2">
@@ -394,25 +394,6 @@
                                     height="500"
                                     style="border: none; border-radius: 10px;">
                             </iframe>
-                        </div>
-                        
-                        <!-- Event Details -->
-                        <div class="grid grid-cols-1 md:grid-cols-3 gap-4 pt-8 border-t border-gray-200">
-                            <div class="text-center">
-                                <div class="text-2xl mb-2">📅</div>
-                                <div class="text-sm text-gray-500">Date</div>
-                                <div class="font-semibold">Nov 30, 2025</div>
-                            </div>
-                            <div class="text-center">
-                                <div class="text-2xl mb-2">📍</div>
-                                <div class="text-sm text-gray-500">Venue</div>
-                                <div class="font-semibold">Courtyard by Marriott</div>
-                            </div>
-                            <div class="text-center">
-                                <div class="text-2xl mb-2">⏰</div>
-                                <div class="text-sm text-gray-500">Duration</div>
-                                <div class="font-semibold">Full Day Event</div>
-                            </div>
                         </div>
                         
                         <!-- Social Media Links -->
@@ -723,32 +704,7 @@
         });
     </script>
 
-    <!-- Dark Mode Toggle -->
-    <script>
-    (function() {
-        // Always start with light theme, only use saved preference if it exists
-        const savedTheme = localStorage.getItem('theme');
-        const currentTheme = savedTheme || 'light';
-        
-        // Ensure light theme by default
-        if (!savedTheme) {
-            document.documentElement.removeAttribute('data-theme');
-            localStorage.setItem('theme', 'light');
-        } else {
-            document.documentElement.setAttribute('data-theme', currentTheme);
-        }
-        
-        const themeToggle = document.createElement('button');
-        themeToggle.className = 'theme-toggle';
-        themeToggle.innerHTML = '<svg class="moon-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"/></svg><svg class="sun-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"/></svg>';
-        document.body.appendChild(themeToggle);
-        themeToggle.addEventListener('click', () => {
-            const theme = document.documentElement.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
-            document.documentElement.setAttribute('data-theme', theme);
-            localStorage.setItem('theme', theme);
-        });
-    })();
-    </script>
+    
 </body>
 </html>
 

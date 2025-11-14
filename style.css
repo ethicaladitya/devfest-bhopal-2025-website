@@ -1452,13 +1452,6 @@ header .btn-primary:hover,
 }
 
 /* Prevent flash of unstyled content */
-html:not([data-theme]) {
-    visibility: hidden;
-}
-
-html[data-theme] {
-    visibility: visible;
-}
 
 /* ============================================
    HOMEPAGE DARK THEME (applies only when data-theme="dark")

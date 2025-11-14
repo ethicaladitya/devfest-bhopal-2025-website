@@ -32,7 +32,7 @@
     <header class="nav-header sticky top-0 z-50">
         <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
             <a href="index.html" class="logo-container flex items-center space-x-3">
-                <img id="header-logo-img" src="" alt="Google Cloud Logo" class="h-20 w-auto max-h-24 object-contain">
+                <img id="header-logo-img" src="" alt="GDG Bhopal Logo" class="h-16 w-auto max-h-20 object-contain">
             </a>
             <!-- Desktop Navigation -->
             <div id="nav-links" class="hidden lg:flex items-center space-x-2">
@@ -915,48 +915,6 @@
         }
     });
 
-    // Dark Mode Toggle Functionality
-    (function() {
-        // Use saved theme or default to light; system preference if none saved
-        const savedTheme = localStorage.getItem('theme');
-        let currentTheme = savedTheme;
-        if (!currentTheme) {
-            const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-            currentTheme = prefersDark ? 'dark' : 'light';
-        }
-        document.documentElement.setAttribute('data-theme', currentTheme);
-        
-        // Create theme toggle button
-        const themeToggle = document.createElement('button');
-        themeToggle.className = 'theme-toggle';
-        themeToggle.setAttribute('aria-label', 'Toggle dark mode');
-        themeToggle.innerHTML = `
-            <svg class="moon-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"/>
-            </svg>
-            <svg class="sun-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"/>
-            </svg>
-        `;
-        document.body.appendChild(themeToggle);
-        
-        // Toggle theme on button click
-        themeToggle.addEventListener('click', () => {
-            const currentTheme = document.documentElement.getAttribute('data-theme');
-            const newTheme = currentTheme === 'light' ? 'dark' : 'light';
-            
-            document.documentElement.setAttribute('data-theme', newTheme);
-            localStorage.setItem('theme', newTheme);
-            
-            // Add a little animation feedback
-            themeToggle.style.transform = 'rotate(360deg)';
-            setTimeout(() => {
-                themeToggle.style.transform = '';
-            }, 300);
-        });
-        
-        // Persist user choice on toggle; default set above
-    })();
     </script>
 
 </body>
