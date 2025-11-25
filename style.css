@@ -378,10 +378,11 @@ header .btn-primary:hover,
 .nav-link {
     position: relative;
     transition: all 0.3s ease;
-    padding: 8px 16px;
+    padding: 10px 20px;
     border-radius: 8px;
     text-decoration: none;
     display: inline-block;
+    font-size: 0.95rem;
 }
 
 .nav-link:hover {

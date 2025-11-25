@@ -33,6 +33,7 @@ const websiteData = {
         { "text": "FAQ", "url": "index.html#faq" }
       ]
     },
+    { "text": "Schedule", "url": "schedule.html" },
     { "text": "Team", "url": "team.html" },
     { "text": "Call for Speakers", "url": "call-for-speakers.html" },
     { "text": "Call for Sponsors", "url": "call-for-sponsors.html" },
@@ -233,15 +234,6 @@ const websiteData = {
         "skills": ["Community Building", "Development Operations", "Developer Relations"]
       },
       {
-        "name": "Pramanya Rajput",
-        "role": "GDGoC Organizer & Lead",
-        "company": "SOIT, Bhopal",
-        "bio": "Experienced software engineer with a passion for cloud architecture and developer community engagement.",
-        "profileUrl": "https://www.linkedin.com/in/pramanya-rajput/",
-        "imageUrl": "team image/pramanya.jpeg",
-        "skills": ["Cloud Architecture", "DevOps", "Team Leadership"]
-      },
-      {
       "name": "Chandra Prakash Ojha",
       "role": "GDGoC Organizer & Lead",
       "company": "OIST, Bhopal",
@@ -270,69 +262,63 @@ const websiteData = {
       }
     ]
   },
-  /*
   "schedule": {
     "title": "Conference Schedule",
-    "subtitle": "Sunday, August 3rd, 2025 at Kushabhau Thakre International Convention Centre (Minto Hall), Bhopal",
+    "subtitle": "November 30, 2025 | 9:00 AM - 5:00 PM | Courtyard by Marriott, Bhopal",
     "sessions": [
       {
         "category": "Morning Session",
         "items": [
           {
-            "time": "9:00 AM - 10:00 AM",
-            "title": "Registration & Networking",
-            "description": "Attendees arrive, complete registration, and connect with peers.",
+            "time": "9:00 AM - 9:30 AM",
+            "title": "Registration & Check-in",
+            "description": "Attendees arrive and complete registration.",
             "type": "general"
           },
           {
-            "time": "10:00 AM - 10:25 AM",
-            "title": "Inaugural Keynote & Organizers' Remarks",
-            "description": "Conference officially begins with a welcome address from the organizing committee, setting the stage for the day.",
+            "time": "9:30 AM - 10:00 AM",
+            "title": "Breakfast",
+            "description": "Morning refreshments and networking.",
+            "type": "break"
+          },
+          {
+            "time": "10:00 AM - 10:15 AM",
+            "title": "Opening of DevFest",
+            "speaker": "Host",
+            "description": "Official opening and welcome to DevFest Bhopal 2025.",
             "type": "keynote"
           },
-        ]
-      },
-      {
-        "category": "Technical Sessions - Block 1: The Agentic Age & AI Applications",
-        "items": [
           {
-            "time": "10:30 AM - 10:55 AM",
-            "title": "Session 1: NotebookLM to Conquer Complex Topics",
-            "speaker": "Ashish Kolarkar",
-            "speakerTitle": "CEO, Datatrack",
-            "type": "talk"
-          },
-          {
-            "time": "11:00 AM - 11:25 AM",
-            "title": "Session 2: Mastering Google Gemini: Your All-in-One Career Co-Pilot",
-            "speaker": "Kripesh Adwani",
-            "speakerTitle": "CEO, UpSkillAI",
-            "type": "talk"
-          },
-          {
-            "time": "11:30 AM - 11:55 AM",
-            "title": "Session 3: From Pretrained to Powerful: Fine-Tune Gemma on GCP Vertex AI",
-            "speaker": "Geeta Kakrani",
-            "speakerTitle": "CEO, Founder, Kanishka IT",
-            "type": "talk"
-          },
-          {
-            "time": "12:00 PM - 12:25 PM",
-            "title": "Session 4: Building Next-Gen Intelligent Self-Service on Google Cloud",
-            "speaker": "Saurabh Mishra",
-            "speakerTitle": "DevOps Lead, TSYS",
-            "type": "talk"
+            "time": "10:15 AM - 10:30 AM",
+            "title": "Keynote by Organizers",
+            "speaker": "Shivam & Atharva",
+            "description": "Opening remarks from GDG Bhopal organizers.",
+            "type": "keynote"
           }
         ]
       },
       {
-        "category": "Family Photo Session outside the auditorium",
+        "category": "Technical Sessions - Block 1",
         "items": [
           {
-            "time": "12:50 PM",
-            "title": "Family Photo",
-            "description": "Group photo session for all attendees, speakers, and organizers.",
-            "type": "general"
+            "time": "10:30 AM - 11:00 AM",
+            "title": "Because Manual is So Last Decade",
+            "speaker": "Kailash Sharma",
+            "speakerTitle": "SDE-1 @Shaadi.com | Automation @Open-Paws",
+            "type": "talk"
+          },
+          {
+            "time": "11:05 AM - 11:35 AM",
+            "title": "Gen-AI powered Data Modernisation - Snowflake Cortex",
+            "speaker": "Pranit De",
+            "speakerTitle": "Technical Lead, Consumer Product Group, TCS",
+            "type": "talk"
+          },
+          {
+            "time": "11:40 AM - 12:10 PM",
+            "title": "The Nano Banana Revolution: How Students Can Build a ₹50K/Month AI Business",
+            "speaker": "Kripesh Advani",
+            "type": "talk"
           }
         ]
       },
@@ -340,49 +326,35 @@ const websiteData = {
         "category": "Lunch Break",
         "items": [
           {
-            "time": "12:45 PM - 2:15 PM",
+            "time": "12:15 PM - 1:25 PM",
             "title": "Lunch & Networking",
-            "description": "A dedicated break for attendees to enjoy lunch, engage in further networking.",
+            "description": "A dedicated break for attendees to enjoy lunch and network.",
             "type": "break"
           }
         ]
       },
       {
-        "category": "Technical Sessions - Block 2: Cloud Infrastructure, Operations & Modern Development",
+        "category": "Technical Sessions - Block 2",
         "items": [
           {
-            "time": "2:15 PM - 2:40 PM",
-            "title": "Session 5: How to Secure AI Workload",
-            "speaker": "Biswanath Giri",
-            "speakerTitle": "Cloud and AI Principal Architect, LTIMindtree",
+            "time": "1:30 PM - 2:00 PM",
+            "title": "Android Agents in Action: Building Smarter Apps with Firebase Genkit",
+            "speaker": "Ayushi Gupta",
+            "speakerTitle": "Engineering Lead at Zalando",
             "type": "talk"
           },
           {
-            "time": "2:45 PM - 3:10 PM",
-            "title": "Session 6: Kubernetes for Beginners: Your First Step into Cloud-Native",
-            "speaker": "Parth Arora",
-            "speakerTitle": "Senior Software Engineer, IBM India",
+            "time": "2:05 PM - 2:35 PM",
+            "title": "Build Your Future with Agentic AI",
+            "speaker": "Abhishek Raj Permani",
+            "speakerTitle": "Data Science Manager @Sunking | Ex-Jaguar Land Rover | Ex-Samsung",
             "type": "talk"
           },
           {
-            "time": "3:15 PM - 3:40 PM",
-            "title": "Session 7: No server, No stress: Build smart cloud workflows the low code way",
-            "speaker": "Jyoti Mishra",
-            "speakerTitle": "SDE-4, Evertz Microsystems",
-            "type": "talk"
-          },
-          {
-            "time": "3:45 PM - 4:10 PM",
-            "title": "Session 8: Cloud Intelligence Dashboard",
-            "speaker": "Anand Mehta",
-            "speakerTitle": "Senior FinOps Specialist, Nasdaq",
-            "type": "talk"
-          },
-          {
-            "time": "4:15 PM - 4:30 PM",
-            "title": "Session 9: Design Thinking and Transforming Business",
-            "speaker": "Poorvi Arora",
-            "speakerTitle": "Delivery Manager, Technoduxx",
+            "time": "2:40 PM - 3:10 PM",
+            "title": "Building multi agent systems with ADK",
+            "speaker": "Ashutosh S. Bhakare",
+            "speakerTitle": "25+ years experience as a Trainer and Consultant, GDE and Docker Captain",
             "type": "talk"
           }
         ]
@@ -391,9 +363,11 @@ const websiteData = {
         "category": "Panel Discussion",
         "items": [
           {
-            "time": "4:35 PM - 5:15 PM",
-            "title": "The Agentic Age & Future Workforce: An Ecosystem Dialogue with IT Leaders, Founders, and Skill Development Pioneers",
-            "description": "A dynamic 40-minute discussion with diverse experts, including IT company leaders, startup founders, coaching institute representatives, and the founder/director of the Global Skill Park.",
+            "time": "3:15 PM - 4:00 PM",
+            "title": "Panel Discussion",
+            "speaker": "Aditya Shah",
+            "speakerTitle": "Host",
+            "description": "Interactive panel discussion on emerging technologies and industry trends.",
             "type": "panel"
           }
         ]
@@ -402,22 +376,21 @@ const websiteData = {
         "category": "Concluding Session",
         "items": [
           {
-            "time": "5:15 PM - 5:30 PM",
-            "title": "Closing Remarks & Vote of Thanks",
-            "description": "Organizers provide a summary of the day, express gratitude to speakers, sponsors, and attendees, and announce future events.",
+            "time": "4:00 PM - 4:30 PM",
+            "title": "Closing & Snacks Announcement",
+            "description": "Closing remarks and event wrap-up.",
             "type": "general"
           },
           {
-            "time": "5:30 PM onwards",
-            "title": "Swag Distribution, Networking & Departure",
-            "description": "Final opportunities for networking before attendees depart.",
-            "type": "general"
+            "time": "4:30 PM - 5:00 PM",
+            "title": "Snacks & Swag Distribution",
+            "description": "Enjoy snacks while collecting your DevFest swag and networking.",
+            "type": "break"
           }
         ]
       }
     ]
   },
-  */
   "communityPartners": {
     "title": "Partners",
     "subtitle": "Meet our amazing partners who make DevFest Bhopal 2025 possible through their collaboration and support",
